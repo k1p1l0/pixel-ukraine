@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "Lets Node 18+ import layout.js (shared by the viewer and the self-check) as an ES module."
+}

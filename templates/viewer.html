@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pixel Path</title>
+<!--
+  Pixel Path: a fly-through of a real route, in pixel art. Plain JavaScript modules, no build step:
+    index.html  this page: the speed controls and the loop
+    road.js     the renderer (sky, real horizon, per-pixel ground, buildings as blocks, signs)
+    layout.js   what stands beside the road, from the baked map data (shared with the self-check)
+  Data: data/index.json, data/cNNNN.json, data/landmarks.json; art/kit.json and art/*.png.
+  Serve the folder with any static web server; a page opened as file:// cannot fetch its data.
+
+  Controls: scroll (or drag up and down on a touch screen) to go faster or slower; keep going the other way to reverse.
+  Arrow keys do the same, Space pauses, I shows where you are, M a small map.
+  URL options: ?km=3.2&speed=60 (km/h) &info=1 &map=1 &paused=1
+-->
+<style>
+  :root { --ink: #f4efe2; }
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; overscroll-behavior: none; touch-action: none; }
+  #c { position: fixed; inset: 0; width: 100%; height: 100%; object-fit: cover; image-rendering: pixelated; display: block; }
+  #info { position: fixed; left: 10px; top: 8px; font: 11px/1.35 ui-monospace, Menlo, Consolas, monospace; color: var(--ink); text-shadow: 0 1px 2px #000, 0 0 3px #000; pointer-events: none; display: none; white-space: pre; }
+  #map { position: fixed; right: 10px; top: 10px; width: 96px; height: 96px; border-radius: 50%; display: none; opacity: .9; }
+  #credits { position: fixed; left: 8px; right: 8px; bottom: 5px; font: 9px/1.3 ui-monospace, Menlo, Consolas, monospace; color: rgba(255, 255, 255, .62); text-shadow: 0 1px 1px rgba(0, 0, 0, .7); pointer-events: none; }
+  #credits a { color: inherit; pointer-events: auto; }
+</style>
+</head>
+<body>
+<canvas id="c" aria-label="A pixel-art fly-through of the route. Scroll to change speed."></canvas>
+<div id="info"></div>
+<canvas id="map" width="96" height="96"></canvas>
+<!-- Attribution is required by the data licences: keep this line visible wherever you host the fly-through. -->
+<div id="credits"></div>
+
+<script type="module">
+import { createRoad } from './road.js';
+const $ = id => document.getElementById(id), params = new URLSearchParams(location.search), CHECK = params.get('check') === '1';
+const W = 320, heightFor = () => Math.max(140, Math.min(260, Math.round(W * innerHeight / Math.max(1, innerWidth))));
+let road = await createRoad($('c'), { width: W, height: params.has('h') ? +params.get('h') : heightFor(), check: CHECK });
+const { IDX, LEN } = road;
+
+// ------------------------------------------------------------ speed: one throttle, scrolled up and down
+// speed (m/s) = sign(throttle) * 3 * (e^|throttle| - 1): a crawl near zero, very fast at the top (throttle 6.5 is
+// about 7,000 km/h). Scrolling one way opens the throttle, the other way closes it, through zero into reverse.
+const TOP = 6.5, toSpeed = t => Math.sign(t) * 3 * (Math.exp(Math.abs(t)) - 1), toThrottle = v => Math.sign(v) * Math.log(1 + Math.abs(v) / 3);
+let pos = Math.max(0, Math.min(LEN - 1, +(params.get('km') || 0) * 1000)), throttle = toThrottle(+(params.get('speed') ?? 60) / 3.6), speed = 0, paused = params.has('paused');
+const nudge = d => { throttle = Math.max(-TOP, Math.min(TOP, throttle + d)); if (Math.abs(throttle) < 0.02) throttle = 0; paused = false; };
+addEventListener('wheel', e => { e.preventDefault(); nudge(e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? 400 : 1) * 0.0025); }, { passive: false });
+let touchY = null; addEventListener('touchstart', e => { touchY = e.touches[0].clientY; }, { passive: true });
+addEventListener('touchmove', e => { if (touchY == null) return; const y = e.touches[0].clientY; nudge((touchY - y) * 0.012); touchY = y; e.preventDefault(); }, { passive: false });
+addEventListener('touchend', () => { touchY = null; });
+const shown = { info: params.get('info') === '1', map: params.get('map') === '1' };
+const toggle = k => { shown[k] = !shown[k]; $(k).style.display = shown[k] ? 'block' : 'none'; };
+for (const k of ['info', 'map']) $(k).style.display = shown[k] ? 'block' : 'none';
+addEventListener('keydown', e => {
+  if (e.key === 'ArrowUp' || e.key === 'ArrowRight') { nudge(0.35); e.preventDefault(); }
+  else if (e.key === 'ArrowDown' || e.key === 'ArrowLeft') { nudge(-0.35); e.preventDefault(); }
+  else if (e.key === ' ') { paused = !paused; e.preventDefault(); }
+  else if (e.key === 'i' || e.key === 'I') toggle('info');
+  else if (e.key === 'm' || e.key === 'M') toggle('map');
+});
+
+// ------------------------------------------------------------ credits (required) and the optional readouts
+const RD_LINK = 'https://www.retrodiffusion.ai?ref=YBQJM823';   // affiliate link
+const real = Object.values(road.KITJ.pictures).some(p => !p.placeholder);
+$('credits').innerHTML = `Map data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL) · Route: OSRM · Elevation: Terrain Tiles (Mapzen, AWS) · Landmarks: Wikidata · ${real ? `Art: <a href="${RD_LINK}" target="_blank" rel="noopener sponsored" title="Affiliate link">RetroDiffusion</a> (affiliate link)` : 'Placeholder art'}`;
+document.title = `${IDX.from.split(',')[0]} to ${IDX.to.split(',')[0]}`;
+const imperial = IDX.units === 'miles', fmt = m => imperial ? `${(m / 1609.34).toFixed(1)} mi` : `${(m / 1000).toFixed(1)} km`;
+function readouts() {
+  if (shown.info) { const { here, area } = road.placeAt(pos), q = road.roadAt(pos), kmh = Math.abs(speed) * 3.6;
+    $('info').textContent = `${[here, area].filter(Boolean).join(', ')}${q.road ? ' · ' + q.road : ''}\n${fmt(pos)} of ${fmt(LEN)} · ${Math.round(imperial ? kmh / 1.609 : kmh)} ${imperial ? 'mph' : 'km/h'}${speed < -0.1 ? ' reversing' : ''}${paused ? ' · paused' : ''}`; }
+  if (shown.map) road.drawLocalMap($('map').getContext('2d'), pos, 96);
+}
+
+// ------------------------------------------------------------ the loop
+let last = performance.now(), hudT = 0, frozen = false;
+function frame(now) {
+  const dt = Math.min(0.1, (now - last) / 1000); last = now; if (frozen) return requestAnimationFrame(frame);
+  road.streamAround(pos);
+  if (!road.ready(pos)) return requestAnimationFrame(frame);   // the first chunk is still on its way
+  const target = paused ? 0 : toSpeed(throttle); speed += (target - speed) * (1 - Math.exp(-dt * 2.5));   // eased: no jolts
+  const ahead = Math.max(0, Math.min(LEN - 1, pos + Math.sign(speed) * 900));
+  if (road.ready(ahead)) pos = Math.max(0, Math.min(LEN - 1, pos + speed * dt)); else speed *= 0.8;   // wait for the road ahead to load
+  if ((pos >= LEN - 1 && speed > 0) || (pos <= 0 && speed < 0)) { speed = 0; throttle = 0; }
+  road.T.now += dt; road.render(pos, speed);
+  if (now - hudT > 200) { hudT = now; readouts(); }
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+let rs = null; addEventListener('resize', () => { clearTimeout(rs); rs = setTimeout(async () => { if (params.has('h')) return; road = await createRoad($('c'), { width: W, height: heightFor(), check: CHECK }); window.__trip.road = road; }, 250); });
+
+// For the self-check and recordings: jump, freeze the clock, render one exact frame.
+window.__trip = {
+  road, get pos() { return pos; },
+  async goto(km, o = {}) { frozen = true; pos = Math.max(0, Math.min(LEN - 1, km * 1000)); road.T.now = o.t ?? 10;
+    road.streamAround(pos); for (let i = 0; i < 400 && !(road.ready(pos) && road.ready(Math.min(LEN - 1, pos + 900))); i++) await new Promise(r => setTimeout(r, 50));
+    for (let i = 0; i < 60; i++) road.render(pos, 0);   // the lane settles
+    const { here, area } = road.placeAt(pos); return { place: here, area, road: road.roadAt(pos).road || '', stats: road.stats() }; },
+  async step(m, seconds = 1 / 30) { pos = Math.max(0, Math.min(LEN - 1, pos + m)); road.T.now += seconds; road.streamAround(pos);
+    for (let i = 0; i < 200 && !road.ready(Math.min(LEN - 1, pos + 900)); i++) await new Promise(r => setTimeout(r, 50)); road.render(pos, m / seconds); },
+  resume() { frozen = false; last = performance.now(); },
+};
+</script>
+</body>
+</html>

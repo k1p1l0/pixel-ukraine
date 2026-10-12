@@ -1,0 +1,12 @@
+{
+  "name": "pixel-path",
+  "description": "Pixel Path: pixel-art fly-throughs of real routes between any two places",
+  "owner": { "name": "jonwheatley", "url": "https://github.com/jonwheatley" },
+  "plugins": [
+    {
+      "name": "pixel-path",
+      "source": "./",
+      "description": "Turn any two places into a pixel-art fly-through of the real road, with scenery art at three levels of detail and a self-check."
+    }
+  ]
+}
