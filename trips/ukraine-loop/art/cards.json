@@ -1,0 +1,22 @@
+{
+ "Київ, Україна": "cards/kyiv.png",
+ "Чернігів, Україна": "cards/chernihiv.png",
+ "Суми, Україна": "cards/sumy.png",
+ "Харків, Україна": "cards/kharkiv.png",
+ "Дніпро, Дніпропетровська область, Україна": "cards/dnipro.png",
+ "Луганськ, Україна": "cards/luhansk.png",
+ "Донецьк, Україна": "cards/donetsk.png",
+ "Маріуполь, Україна": "cards/mariupol.png",
+ "Керч, Україна": "cards/kerch.png",
+ "Ялта, Україна": "cards/yalta.png",
+ "Севастополь, Україна": "cards/sevastopol.png",
+ "Херсон, Україна": "cards/kherson.png",
+ "Одеса, Україна": "cards/odesa.png",
+ "Ізмаїл, Україна": "cards/izmail.png",
+ "Вінниця, Україна": "cards/vinnytsia.png",
+ "Кам'янець-Подільський, Україна": "cards/kamianets-podilskyi.png",
+ "Чернівці, Україна": "cards/chernivtsi.png",
+ "Ужгород, Україна": "cards/uzhhorod.png",
+ "Львів, Україна": "cards/lviv.png",
+ "Луцьк, Україна": "cards/lutsk.png"
+}

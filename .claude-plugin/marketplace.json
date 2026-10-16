@@ -1,12 +1,12 @@
 {
-  "name": "pixel-path",
-  "description": "Pixel Path: pixel-art fly-throughs of real routes between any two places",
-  "owner": { "name": "jonwheatley", "url": "https://github.com/jonwheatley" },
+  "name": "pixel-ukraine",
+  "description": "Pixel Ukraine: a pixel-art ride around Ukraine, built on Pixel Path by Jon Wheatley",
+  "owner": { "name": "k1p1l0", "url": "https://github.com/k1p1l0" },
   "plugins": [
     {
-      "name": "pixel-path",
+      "name": "pixel-ukraine",
       "source": "./",
-      "description": "Turn any two places into a pixel-art fly-through of the real road, with scenery art at three levels of detail and a self-check."
+      "description": "Ride the real roads of Ukraine in pixel art, or turn any two places into a pixel-art fly-through of the real road."
     }
   ]
 }

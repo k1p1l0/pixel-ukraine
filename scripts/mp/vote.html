@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Голосуй за своє місто · Київ → Київ</title>
+<link rel="stylesheet" href="fonts/fonts.css">   <!-- self-hosted next to the game page (templates/fonts, OFL 1.1) -->
+<style>
+  /* the game's look: dark slate card, warm ink, the yellow of the start button */
+  :root { --bg: #101317; --card: #1a1f26; --line: #2c333d; --ink: #f4efe2; --muted: #a3abb6; --accent: #f2c230; --accent-ink: #1a1205; --bar: #2a313b; color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.45 'Roboto Condensed', 'Arial Narrow', Arial, sans-serif; padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px); }
+  .wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 28px 56px; display: grid; gap: 22px; }
+  h1, h2 { font-family: 'Oswald', 'Arial Narrow', sans-serif; text-transform: uppercase; letter-spacing: .02em; margin: 0; text-wrap: balance; }
+  h1 { font-size: clamp(30px, 7vw, 44px); line-height: 1.05; } h1 b { color: var(--accent); font-weight: 700; }
+  h2 { font-size: 20px; color: var(--accent); }
+  p { margin: 0; max-width: 64ch; } .muted { color: var(--muted); } a { color: var(--accent); }
+  .top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .state { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .closed { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+  ol.cities { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .city { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; grid-template-columns: 2.2em 1fr auto; gap: 4px 12px; align-items: center; }
+  .rank { font: 700 18px/1 'Oswald', sans-serif; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .name { font: 700 20px/1.1 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: .02em; min-width: 0; overflow-wrap: anywhere; }
+  .sum { font: 700 20px/1 'Oswald', sans-serif; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+  .meter { grid-column: 2 / 4; height: 6px; background: var(--bar); border-radius: 3px; overflow: hidden; } .meter i { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+  .meta { grid-column: 2 / 3; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .acts { grid-column: 2 / 4; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+  .give { font: 700 15px/1 'Oswald', sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-ink); background: var(--accent); border-radius: 8px; padding: 10px 14px; text-decoration: none; }
+  .copy { font: 400 14px/1 'Roboto Condensed', sans-serif; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; cursor: pointer; }
+  .give:focus-visible, .copy:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .lead .city { border-color: var(--accent); }
+  .pot { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-variant-numeric: tabular-nums; }
+  ul { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; } li { max-width: 64ch; }
+  .code { font-family: ui-monospace, Menlo, monospace; font-size: 15px; background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  h3 { font: 700 15px/1.2 'Oswald', sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 6px 0 0; }
+  .addf { display: flex; flex-wrap: wrap; gap: 8px; }
+  .addf input { flex: 99 1 260px; min-width: 0; min-height: 46px; padding: 10px 12px; background: var(--card); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; font: 17px/1.2 'Roboto Condensed', 'Arial Narrow', sans-serif; }
+  .addf input::placeholder { color: #8d96a2; opacity: 1; }
+  .addf input:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .addf .give { flex: 1 0 auto; display: inline-flex; align-items: center; justify-content: center; min-height: 46px; cursor: pointer; }
+  .give[aria-disabled="true"] { background: var(--bar); color: var(--muted); cursor: not-allowed; }
+  .hint { min-height: 1.45em; font-size: 15px; } .hint.ok { color: var(--ink); }
+  .cand .city { grid-template-columns: 1fr auto; } .cand .meter, .cand .acts { grid-column: 1 / 3; } .got { grid-column: 1 / 3; font: 700 15px/1.2 'Oswald', sans-serif; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+  @media (max-width: 480px) { .city { grid-template-columns: 1.8em 1fr auto; padding: 12px; } .name, .sum { font-size: 18px; } }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><a href="./">← до гри</a><span class="state" id="state">завантажую…</span></div>
+  <header style="display:grid;gap:10px">
+    <h1>Голосуй <b>за своє місто</b></h1>
+    <p>Кожна гривня рахується як голос. Місто з найбільшою сумою першим отримує детальний піксельний арт: свої будинки, вулиці й людей у грі «Київ → Київ».</p>
+    <p class="muted">Гра не показує й не зберігає імен донорів, лише суму й місто. Як і в будь-якій банці monobank, власник банки бачить поповнення у своєму застосунку.</p>
+  </header>
+  <div class="closed" id="paused" hidden><p>Підрахунок на паузі, внески зарахуються пізніше.</p></div>
+  <div class="closed" id="closed" hidden><h2>Голосування скоро відкриється</h2><p class="muted" style="margin-top:6px">Банка ще налаштовується. Зазирни трохи пізніше.</p></div>
+  <section style="display:grid;gap:10px" id="list-sec">
+    <h2>Міста</h2>
+    <ol class="cities" id="list" role="list"></ol>
+    <div class="pot muted" id="pot"></div>
+  </section>
+  <section style="display:grid;gap:10px" id="add" hidden>
+    <h2>Немає твого міста?</h2>
+    <p>Додай його в маршрут: коли на місто збереться <span id="goal">5 000</span> ₴, дорога пройде через нього.</p>
+    <div class="addf"><label class="sr" for="addin">Місто, якого немає в маршруті</label>
+      <input id="addin" type="text" list="adddl" autocomplete="off" autocapitalize="words" spellcheck="false" enterkeyhint="go" placeholder="назва міста, напр. Полтава" aria-describedby="addhint"><datalist id="adddl"></datalist>
+      <a class="give" id="addgo" role="link" tabindex="0" aria-disabled="true" aria-describedby="addhint" target="_blank" rel="noopener">Задонатити</a></div>
+    <p class="muted hint" id="addhint" aria-live="polite">обери місто зі списку</p>
+    <div id="cand" hidden style="display:grid;gap:8px"><h3 id="cand-h">Збирають на маршрут</h3><ol class="cities cand" id="candl" aria-labelledby="cand-h"></ol></div>
+  </section>
+  <section style="display:grid;gap:10px">
+    <h2>Як це працює</h2>
+    <ul>
+      <li>Кнопка «Задонатити» відкриває банку monobank, де місто вже вписане в коментар. Суму обираєш ти: від 10 до 29 999 ₴.</li>
+      <li>Якщо платиш у застосунку monobank, впиши в коментар назву міста, наприклад <span class="code">Місто: Львів</span>. Кнопка «копіювати» біля міста копіює цей текст.</li>
+      <li>Внески без міста в коментарі йдуть у загальну суму, яка теж оплачує арт. Переказ за номером картки з іншого банку губить коментар, тож за місто голосуй кнопкою «Задонатити».</li>
+      <li>Суми оновлюються зазвичай за кілька хвилин.</li>
+    </ul>
+  </section>
+</div>
+<div id="live" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)"></div>
+<script>
+const $ = id => document.getElementById(id), fmt = n => n.toLocaleString('uk-UA');
+const plural = n => { const a = n % 10, b = n % 100; return a === 1 && b !== 11 ? 'внесок' : a >= 2 && a <= 4 && (b < 12 || b > 14) ? 'внески' : 'внесків'; };
+const ago = t => { const m = Math.round((Date.now() - t) / 60000); return m < 1 ? 'оновлено щойно' : m < 60 ? `оновлено ${m} хв тому` : `оновлено ${Math.round(m / 60)} год тому`; };
+function link(jar, c) { return `https://send.monobank.ua/jar/${encodeURIComponent(jar)}?t=${encodeURIComponent(c.comment).replace(/'/g, '%27')}`; }
+function copy(text, btn) {
+  const done = () => { const o = btn.textContent; btn.textContent = 'скопійовано'; $('live').textContent = 'Коментар скопійовано: ' + text; setTimeout(() => btn.textContent = o, 1500); };
+  if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, () => prompt('Скопіюй коментар:', text)); else prompt('Скопіюй коментар:', text);
+}
+// a city off the route: when add.goal is on it, the road goes through it. Old hosts send no «add»: no block. The town list loads on the first focus of the field
+const AD = { d: null, by: null, busy: false, fail: false };
+const norm = t => t.trim().replace(/\s+/g, ' ').replace(/[’ʼ`]/g, "'").toLowerCase();
+function arender(d) {
+  AD.d = d && d.open && d.jar && d.add && d.add.goal > 0 ? d : null; $('add').hidden = !AD.d; if (!AD.d) return;
+  const g = d.add.goal, cs = (Array.isArray(d.add.cities) ? d.add.cities : []).slice().sort((a, b) => b.uah - a.uah), list = $('candl'); $('goal').textContent = fmt(g); $('cand').hidden = !cs.length; list.textContent = '';
+  for (const c of cs) {
+    const li = document.createElement('li'), cm = c.comment || 'Місто: ' + c.name;
+    li.innerHTML = `<div class="city"><span class="name"></span><span class="sum">${fmt(c.uah)} з ${fmt(g)} ₴</span>${c.reached ? '<span class="got">зібрано ✓ додаємо в маршрут</span>' : `<div class="meter"><i style="width:${c.uah ? Math.max(2, Math.min(100, Math.round(100 * c.uah / g))) : 0}%"></i></div>`}<div class="acts"></div></div>`;
+    li.querySelector('.name').textContent = c.name;
+    const a = document.createElement('a'); a.className = 'give'; a.href = link(d.jar, { comment: cm }); a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Задонатити'; a.setAttribute('aria-label', 'Задонатити, місто ' + c.name);
+    const b = document.createElement('button'); b.className = 'copy'; b.type = 'button'; b.textContent = 'копіювати коментар'; b.title = cm; b.setAttribute('aria-label', 'Копіювати коментар для міста ' + c.name); b.onclick = () => copy(cm, b);
+    li.querySelector('.acts').append(a, b); list.append(li);
+  }
+  acheck();
+}
+function acheck() {   // the key follows the field: a route stop gets its own jar link, a town from the list gets «Місто: <name>», anything else waits
+  const d = AD.d; if (!d) return;
+  const v = norm($('addin').value), key = $('addgo'), hint = $('addhint'); let c = null, msg = 'обери місто зі списку';
+  const stop = v && d.cities.find(x => norm(x.name) === v), hit = v && !stop && AD.by && AD.by.get(v);
+  if (stop) { c = stop; msg = `${stop.name} уже в маршруті, голосуй за нього вище`; }
+  else if (hit) { const k = (d.add.cities || []).find(x => x.slug === hit[0]); c = { name: hit[1], comment: (k && k.comment) || 'Місто: ' + hit[1] }; msg = `у коментарі буде «${c.comment}»`; }
+  else if (AD.busy) msg = 'завантажую список міст…'; else if (AD.fail) msg = 'список міст зараз недоступний, спробуй пізніше';
+  if (hint.textContent !== msg) hint.textContent = msg; hint.classList.toggle('ok', !!c);
+  if (c) { key.href = link(d.jar, c); key.removeAttribute('aria-disabled'); key.setAttribute('aria-label', 'Задонатити, місто ' + c.name); } else { key.removeAttribute('href'); key.setAttribute('aria-disabled', 'true'); key.removeAttribute('aria-label'); }
+}
+function aload() {   // once; after a failure, again on the next focus
+  if (AD.by || AD.busy) return; AD.busy = true; AD.fail = false; acheck();
+  fetch('/api/votes/cities').then(r => { if (!r.ok) throw Error(r.status); return r.json(); }).then(j => {
+    const by = new Map(); for (const [slug, name] of j.cities) if (!by.has(norm(name))) by.set(norm(name), [slug, name]);
+    AD.by = by; $('adddl').replaceChildren(...[...by.values()].map(([, name]) => Object.assign(document.createElement('option'), { value: name })));
+  }).catch(() => { AD.fail = true; }).finally(() => { AD.busy = false; acheck(); });
+}
+$('addin').addEventListener('focus', aload); $('addin').addEventListener('input', acheck);
+$('addin').addEventListener('keydown', e => { if (e.key !== 'Enter') return; e.preventDefault(); acheck(); if ($('addgo').hasAttribute('href')) $('addgo').click(); });
+$('addgo').addEventListener('click', e => { if (!e.currentTarget.hasAttribute('href')) { e.preventDefault(); $('addin').focus(); } });
+function render(d) {
+  $('closed').hidden = !!d.open; $('paused').hidden = !(d.open && d.counting === false); $('state').textContent = d.open ? (d.updated ? ago(d.updated) : 'рахую перші внески…') : '';
+  const cities = d.cities.slice().sort((a, b) => b.uah - a.uah || b.donations - a.donations), max = Math.max(1, ...cities.map(c => c.uah)), list = $('list'); list.textContent = '';
+  cities.forEach((c, i) => {
+    const li = document.createElement('li'); if (i === 0 && c.uah > 0) li.className = 'lead';
+    li.innerHTML = `<div class="city"><span class="rank">${i + 1}</span><span class="name"></span><span class="sum">${fmt(c.uah)} ₴</span>
+      <div class="meter"><i style="width:${Math.max(c.uah ? 2 : 0, Math.round(100 * c.uah / max))}%"></i></div><span class="meta">${c.donations} ${plural(c.donations)}</span>
+      <div class="acts"></div></div>`;
+    li.querySelector('.name').textContent = c.name;
+    if (d.open && d.jar) {
+      const a = document.createElement('a'); a.className = 'give'; a.href = link(d.jar, c); a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Задонатити'; a.setAttribute('aria-label', 'Задонатити, місто ' + c.name); li.querySelector('.acts').append(a);
+      const b = document.createElement('button'); b.className = 'copy'; b.type = 'button'; b.textContent = 'копіювати коментар'; b.title = c.comment; b.setAttribute('aria-label', 'Копіювати коментар для міста ' + c.name); b.onclick = () => copy(c.comment, b); li.querySelector('.acts').append(b);
+    }
+    list.append(li);
+  });
+  arender(d);
+  $('pot').innerHTML = `<span>Без міста</span><span>${fmt(d.general.uah)} ₴ · ${d.general.donations} ${plural(d.general.donations)}</span>`;
+}
+async function load() { try { const r = await fetch('/api/votes', { cache: 'no-store' }); if (!r.ok) throw Error(r.status); render(await r.json()); } catch (e) { arender(null); $('state').textContent = 'суми зараз недоступні, спробуй пізніше'; } }
+load(); setInterval(() => { if (!document.hidden) load(); }, 180000); document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });   // the counter refreshes every 3 minutes at most: no faster polling, none in hidden tabs
+</script>
+</body>
+</html>

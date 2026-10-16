@@ -1,0 +1,3175 @@
+{
+ "about": "Where each picture in this folder came from. Licences of the generated pictures: see NOTICE.md at the repo root.",
+ "pictures": {
+  "azov-apartment-1.png": {
+   "picture": "azov-apartment-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-board-1.png": {
+   "picture": "azov-board-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-car-1.png": {
+   "picture": "azov-car-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-car-2.png": {
+   "picture": "azov-car-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-car-3.png": {
+   "picture": "azov-car-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-farm-1.png": {
+   "picture": "azov-farm-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-farm-2.png": {
+   "picture": "azov-farm-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-house-1.png": {
+   "picture": "azov-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-house-2.png": {
+   "picture": "azov-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-house-3.png": {
+   "picture": "azov-house-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-house-4.png": {
+   "picture": "azov-house-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-oncoming-1.png": {
+   "picture": "azov-oncoming-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-oncoming-2.png": {
+   "picture": "azov-oncoming-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-shop-1.png": {
+   "picture": "azov-shop-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-street-1.png": {
+   "picture": "azov-street-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-street-2.png": {
+   "picture": "azov-street-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-street-3.png": {
+   "picture": "azov-street-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-terrace-1.png": {
+   "picture": "azov-terrace-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-tower-1.png": {
+   "picture": "azov-tower-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-tree-1.png": {
+   "picture": "azov-tree-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "azov-tree-2.png": {
+   "picture": "azov-tree-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-apartment-1.png": {
+   "picture": "bessarabia-apartment-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-board-1.png": {
+   "picture": "bessarabia-board-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-bush-1.png": {
+   "picture": "bessarabia-bush-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-car-1.png": {
+   "picture": "bessarabia-car-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-car-2.png": {
+   "picture": "bessarabia-car-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-car-3.png": {
+   "picture": "bessarabia-car-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-farm-1.png": {
+   "picture": "bessarabia-farm-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-farm-2.png": {
+   "picture": "bessarabia-farm-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-house-1.png": {
+   "picture": "bessarabia-house-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-house-2.png": {
+   "picture": "bessarabia-house-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-house-3.png": {
+   "picture": "bessarabia-house-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-house-4.png": {
+   "picture": "bessarabia-house-4",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-oncoming-1.png": {
+   "picture": "bessarabia-oncoming-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-oncoming-2.png": {
+   "picture": "bessarabia-oncoming-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-shop-1.png": {
+   "picture": "bessarabia-shop-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-street-1.png": {
+   "picture": "bessarabia-street-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-street-2.png": {
+   "picture": "bessarabia-street-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-street-3.png": {
+   "picture": "bessarabia-street-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-terrace-1.png": {
+   "picture": "bessarabia-terrace-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-tower-1.png": {
+   "picture": "bessarabia-tower-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-tree-1.png": {
+   "picture": "bessarabia-tree-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bessarabia-tree-2.png": {
+   "picture": "bessarabia-tree-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-board-1.png": {
+   "picture": "bukovyna-board-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-bush-1.png": {
+   "picture": "bukovyna-bush-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-car-1.png": {
+   "picture": "bukovyna-car-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-car-2.png": {
+   "picture": "bukovyna-car-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-car-3.png": {
+   "picture": "bukovyna-car-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-farm-1.png": {
+   "picture": "bukovyna-farm-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-house-1.png": {
+   "picture": "bukovyna-house-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-house-2.png": {
+   "picture": "bukovyna-house-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-house-3.png": {
+   "picture": "bukovyna-house-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-house-4.png": {
+   "picture": "bukovyna-house-4",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-oncoming-1.png": {
+   "picture": "bukovyna-oncoming-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-oncoming-2.png": {
+   "picture": "bukovyna-oncoming-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-shop-1.png": {
+   "picture": "bukovyna-shop-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-shop-2.png": {
+   "picture": "bukovyna-shop-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-shop-3.png": {
+   "picture": "bukovyna-shop-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-shop-4.png": {
+   "picture": "bukovyna-shop-4",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-street-1.png": {
+   "picture": "bukovyna-street-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-street-2.png": {
+   "picture": "bukovyna-street-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-street-3.png": {
+   "picture": "bukovyna-street-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-terrace-1.png": {
+   "picture": "bukovyna-terrace-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-tree-1.png": {
+   "picture": "bukovyna-tree-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "bukovyna-tree-2.png": {
+   "picture": "bukovyna-tree-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cockpit-bike.png": {
+   "picture": "cockpit-bike",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "cockpit-car.png": {
+   "picture": "cockpit-car",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "cockpit-moto.png": {
+   "picture": "cockpit-moto",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "cockpit-samokat.png": {
+   "picture": "cockpit-samokat",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "cockpit-scooter.png": {
+   "picture": "cockpit-scooter",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "cockpit-ship.png": {
+   "picture": "cockpit-ship",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-apartment-1.png": {
+   "picture": "crimea-south-apartment-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-board-1.png": {
+   "picture": "crimea-south-board-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-bush-1.png": {
+   "picture": "crimea-south-bush-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-car-1.png": {
+   "picture": "crimea-south-car-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-car-2.png": {
+   "picture": "crimea-south-car-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-car-3.png": {
+   "picture": "crimea-south-car-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-farm-1.png": {
+   "picture": "crimea-south-farm-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-farm-2.png": {
+   "picture": "crimea-south-farm-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-house-1.png": {
+   "picture": "crimea-south-house-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-house-2.png": {
+   "picture": "crimea-south-house-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-house-3.png": {
+   "picture": "crimea-south-house-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-house-4.png": {
+   "picture": "crimea-south-house-4",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-oncoming-1.png": {
+   "picture": "crimea-south-oncoming-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-oncoming-2.png": {
+   "picture": "crimea-south-oncoming-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-shop-1.png": {
+   "picture": "crimea-south-shop-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-shop-2.png": {
+   "picture": "crimea-south-shop-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-street-1.png": {
+   "picture": "crimea-south-street-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-street-2.png": {
+   "picture": "crimea-south-street-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-street-3.png": {
+   "picture": "crimea-south-street-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-tower-1.png": {
+   "picture": "crimea-south-tower-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-tree-1.png": {
+   "picture": "crimea-south-tree-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "crimea-south-tree-2.png": {
+   "picture": "crimea-south-tree-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-apartment-1.png": {
+   "picture": "dnipro-steppe-apartment-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-board-1.png": {
+   "picture": "dnipro-steppe-board-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-bush-1.png": {
+   "picture": "dnipro-steppe-bush-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-car-1.png": {
+   "picture": "dnipro-steppe-car-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-car-2.png": {
+   "picture": "dnipro-steppe-car-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-car-3.png": {
+   "picture": "dnipro-steppe-car-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-farm-1.png": {
+   "picture": "dnipro-steppe-farm-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-farm-2.png": {
+   "picture": "dnipro-steppe-farm-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-house-1.png": {
+   "picture": "dnipro-steppe-house-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-house-2.png": {
+   "picture": "dnipro-steppe-house-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-house-3.png": {
+   "picture": "dnipro-steppe-house-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-house-4.png": {
+   "picture": "dnipro-steppe-house-4",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-oncoming-1.png": {
+   "picture": "dnipro-steppe-oncoming-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-oncoming-2.png": {
+   "picture": "dnipro-steppe-oncoming-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-shop-1.png": {
+   "picture": "dnipro-steppe-shop-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-shop-2.png": {
+   "picture": "dnipro-steppe-shop-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-street-1.png": {
+   "picture": "dnipro-steppe-street-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-street-2.png": {
+   "picture": "dnipro-steppe-street-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-street-3.png": {
+   "picture": "dnipro-steppe-street-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-terrace-1.png": {
+   "picture": "dnipro-steppe-terrace-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-tree-1.png": {
+   "picture": "dnipro-steppe-tree-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "dnipro-steppe-tree-2.png": {
+   "picture": "dnipro-steppe-tree-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-apartment-1.png": {
+   "picture": "donbas-apartment-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-board-1.png": {
+   "picture": "donbas-board-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-bush-1.png": {
+   "picture": "donbas-bush-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-car-1.png": {
+   "picture": "donbas-car-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-car-2.png": {
+   "picture": "donbas-car-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-car-3.png": {
+   "picture": "donbas-car-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-farm-1.png": {
+   "picture": "donbas-farm-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-farm-2.png": {
+   "picture": "donbas-farm-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-house-1.png": {
+   "picture": "donbas-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-house-2.png": {
+   "picture": "donbas-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-house-3.png": {
+   "picture": "donbas-house-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-house-4.png": {
+   "picture": "donbas-house-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-house-5.png": {
+   "picture": "donbas-house-5",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-oncoming-1.png": {
+   "picture": "donbas-oncoming-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-oncoming-2.png": {
+   "picture": "donbas-oncoming-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-shop-1.png": {
+   "picture": "donbas-shop-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-street-1.png": {
+   "picture": "donbas-street-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-street-2.png": {
+   "picture": "donbas-street-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-street-3.png": {
+   "picture": "donbas-street-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-terrace-1.png": {
+   "picture": "donbas-terrace-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-tree-1.png": {
+   "picture": "donbas-tree-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "donbas-tree-2.png": {
+   "picture": "donbas-tree-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-apartment-1.png": {
+   "picture": "halychyna-volyn-apartment-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-board-1.png": {
+   "picture": "halychyna-volyn-board-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-bush-1.png": {
+   "picture": "halychyna-volyn-bush-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-car-1.png": {
+   "picture": "halychyna-volyn-car-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-car-2.png": {
+   "picture": "halychyna-volyn-car-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-car-3.png": {
+   "picture": "halychyna-volyn-car-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-farm-1.png": {
+   "picture": "halychyna-volyn-farm-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-house-1.png": {
+   "picture": "halychyna-volyn-house-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-house-2.png": {
+   "picture": "halychyna-volyn-house-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-house-3.png": {
+   "picture": "halychyna-volyn-house-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-house-4.png": {
+   "picture": "halychyna-volyn-house-4",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-oncoming-1.png": {
+   "picture": "halychyna-volyn-oncoming-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-oncoming-2.png": {
+   "picture": "halychyna-volyn-oncoming-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-shop-1.png": {
+   "picture": "halychyna-volyn-shop-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-shop-2.png": {
+   "picture": "halychyna-volyn-shop-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-shop-3.png": {
+   "picture": "halychyna-volyn-shop-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-street-1.png": {
+   "picture": "halychyna-volyn-street-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-street-2.png": {
+   "picture": "halychyna-volyn-street-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-street-3.png": {
+   "picture": "halychyna-volyn-street-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-terrace-1.png": {
+   "picture": "halychyna-volyn-terrace-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-tree-1.png": {
+   "picture": "halychyna-volyn-tree-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "halychyna-volyn-tree-2.png": {
+   "picture": "halychyna-volyn-tree-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "hrushevskoho-apartment-1.png": {
+   "picture": "hrushevskoho-apartment-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "hrushevskoho-apartment-2.png": {
+   "picture": "hrushevskoho-apartment-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "hrushevskoho-apartment-3.png": {
+   "picture": "hrushevskoho-apartment-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "hrushevskoho-apartment-4.png": {
+   "picture": "hrushevskoho-apartment-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "hrushevskoho-civic-1.png": {
+   "picture": "hrushevskoho-civic-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "hrushevskoho-civic-2.png": {
+   "picture": "hrushevskoho-civic-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "hrushevskoho-house-1.png": {
+   "picture": "hrushevskoho-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "hrushevskoho-house-2.png": {
+   "picture": "hrushevskoho-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "hrushevskoho-shop-1.png": {
+   "picture": "hrushevskoho-shop-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kerch-board-1.png": {
+   "picture": "kerch-board-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-bush-1.png": {
+   "picture": "kerch-bush-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-car-1.png": {
+   "picture": "kerch-car-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-car-2.png": {
+   "picture": "kerch-car-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-car-3.png": {
+   "picture": "kerch-car-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-farm-1.png": {
+   "picture": "kerch-farm-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-farm-2.png": {
+   "picture": "kerch-farm-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-farm-3.png": {
+   "picture": "kerch-farm-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-farm-4.png": {
+   "picture": "kerch-farm-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-farm-5.png": {
+   "picture": "kerch-farm-5",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-farm-6.png": {
+   "picture": "kerch-farm-6",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-house-1.png": {
+   "picture": "kerch-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-house-2.png": {
+   "picture": "kerch-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-house-3.png": {
+   "picture": "kerch-house-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-oncoming-1.png": {
+   "picture": "kerch-oncoming-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-oncoming-2.png": {
+   "picture": "kerch-oncoming-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-street-1.png": {
+   "picture": "kerch-street-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-street-2.png": {
+   "picture": "kerch-street-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-street-3.png": {
+   "picture": "kerch-street-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-terrace-1.png": {
+   "picture": "kerch-terrace-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-tree-1.png": {
+   "picture": "kerch-tree-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kerch-tree-2.png": {
+   "picture": "kerch-tree-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kharkiv-street-6.png": {
+   "picture": "kharkiv-street-6",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kharkiv-street-7.png": {
+   "picture": "kharkiv-street-7",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kharkiv-street-8.png": {
+   "picture": "kharkiv-street-8",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kharkiv-street-9.png": {
+   "picture": "kharkiv-street-9",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "khreshchatyk-apartment-1.png": {
+   "picture": "khreshchatyk-apartment-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-apartment-2.png": {
+   "picture": "khreshchatyk-apartment-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-apartment-3.png": {
+   "picture": "khreshchatyk-apartment-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-apartment-4.png": {
+   "picture": "khreshchatyk-apartment-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-apartment-5.png": {
+   "picture": "khreshchatyk-apartment-5",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-apartment-6.png": {
+   "picture": "khreshchatyk-apartment-6",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-civic-1.png": {
+   "picture": "khreshchatyk-civic-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-civic-2.png": {
+   "picture": "khreshchatyk-civic-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-house-1.png": {
+   "picture": "khreshchatyk-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-house-2.png": {
+   "picture": "khreshchatyk-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-shop-1.png": {
+   "picture": "khreshchatyk-shop-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-shop-2.png": {
+   "picture": "khreshchatyk-shop-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-shop-3.png": {
+   "picture": "khreshchatyk-shop-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-tower-1.png": {
+   "picture": "khreshchatyk-tower-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "khreshchatyk-tower-2.png": {
+   "picture": "khreshchatyk-tower-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-apartment-1.png": {
+   "picture": "kyiv-apartment-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-apartment-2.png": {
+   "picture": "kyiv-apartment-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-board-1.png": {
+   "picture": "kyiv-board-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-bush-1.png": {
+   "picture": "kyiv-bush-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-car-1.png": {
+   "picture": "kyiv-car-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-car-2.png": {
+   "picture": "kyiv-car-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-car-3.png": {
+   "picture": "kyiv-car-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-civic-1.png": {
+   "picture": "kyiv-civic-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-farm-1.png": {
+   "picture": "kyiv-farm-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-farm-2.png": {
+   "picture": "kyiv-farm-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "kyiv-house-1.png": {
+   "picture": "kyiv-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-house-2.png": {
+   "picture": "kyiv-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-house-3.png": {
+   "picture": "kyiv-house-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-oncoming-1.png": {
+   "picture": "kyiv-oncoming-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-oncoming-2.png": {
+   "picture": "kyiv-oncoming-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-shop-1.png": {
+   "picture": "kyiv-shop-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-street-1.png": {
+   "picture": "kyiv-street-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-street-2.png": {
+   "picture": "kyiv-street-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-street-3.png": {
+   "picture": "kyiv-street-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-tower-1.png": {
+   "picture": "kyiv-tower-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-tree-1.png": {
+   "picture": "kyiv-tree-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "kyiv-tree-2.png": {
+   "picture": "kyiv-tree-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "lm-Q111017791.png": {
+   "picture": "lm-Q111017791",
+   "source": "scripts/placeholder-art.mjs (drawn by code, no AI)",
+   "model": "none",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak"
+  },
+  "lm-Q150609.png": {
+   "picture": "lm-Q150609",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "lm-Q172233.png": {
+   "picture": "lm-Q172233",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "lm-Q203808.png": {
+   "picture": "lm-Q203808",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "madmax-boom.png": {
+   "picture": "madmax-boom",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-evacbus.png": {
+   "picture": "madmax-evacbus",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-interceptor.png": {
+   "picture": "madmax-interceptor",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-orc.png": {
+   "picture": "madmax-orc",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-person.png": {
+   "picture": "madmax-person",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-rocket.png": {
+   "picture": "madmax-rocket",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "madmax-smoke.png": {
+   "picture": "madmax-smoke",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, copied into this trip"
+  },
+  "odesa-apartment-1.png": {
+   "picture": "odesa-apartment-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-apartment-2.png": {
+   "picture": "odesa-apartment-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-board-1.png": {
+   "picture": "odesa-board-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-bush-1.png": {
+   "picture": "odesa-bush-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-car-1.png": {
+   "picture": "odesa-car-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-car-2.png": {
+   "picture": "odesa-car-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-car-3.png": {
+   "picture": "odesa-car-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-farm-1.png": {
+   "picture": "odesa-farm-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-house-1.png": {
+   "picture": "odesa-house-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-house-2.png": {
+   "picture": "odesa-house-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-house-3.png": {
+   "picture": "odesa-house-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-industrial-1.png": {
+   "picture": "odesa-industrial-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-oncoming-1.png": {
+   "picture": "odesa-oncoming-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-oncoming-2.png": {
+   "picture": "odesa-oncoming-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-shop-1.png": {
+   "picture": "odesa-shop-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-shop-2.png": {
+   "picture": "odesa-shop-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-street-1.png": {
+   "picture": "odesa-street-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-street-2.png": {
+   "picture": "odesa-street-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-street-3.png": {
+   "picture": "odesa-street-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-terrace-1.png": {
+   "picture": "odesa-terrace-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-tree-1.png": {
+   "picture": "odesa-tree-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "odesa-tree-2.png": {
+   "picture": "odesa-tree-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "park-apartment-1.png": {
+   "picture": "park-apartment-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "park-bush-1.png": {
+   "picture": "park-bush-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "park-church-1.png": {
+   "picture": "park-church-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "park-civic-1.png": {
+   "picture": "park-civic-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "park-civic-2.png": {
+   "picture": "park-civic-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "park-house-1.png": {
+   "picture": "park-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "park-house-2.png": {
+   "picture": "park-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "park-house-3.png": {
+   "picture": "park-house-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "park-tower-1.png": {
+   "picture": "park-tower-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "park-tree-1.png": {
+   "picture": "park-tree-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "park-tree-2.png": {
+   "picture": "park-tree-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "park-tree-3.png": {
+   "picture": "park-tree-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-apartment-1.png": {
+   "picture": "pechersk-apartment-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-apartment-2.png": {
+   "picture": "pechersk-apartment-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-apartment-3.png": {
+   "picture": "pechersk-apartment-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-apartment-4.png": {
+   "picture": "pechersk-apartment-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-apartment-5.png": {
+   "picture": "pechersk-apartment-5",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-apartment-6.png": {
+   "picture": "pechersk-apartment-6",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-civic-1.png": {
+   "picture": "pechersk-civic-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-civic-2.png": {
+   "picture": "pechersk-civic-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-house-1.png": {
+   "picture": "pechersk-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-house-2.png": {
+   "picture": "pechersk-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-shop-1.png": {
+   "picture": "pechersk-shop-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-shop-2.png": {
+   "picture": "pechersk-shop-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-shop-3.png": {
+   "picture": "pechersk-shop-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "pechersk-tower-1.png": {
+   "picture": "pechersk-tower-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)",
+   "note": "made for trips/test-kyiv, shared with this trip"
+  },
+  "podillia-apartment-1.png": {
+   "picture": "podillia-apartment-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-board-1.png": {
+   "picture": "podillia-board-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-bush-1.png": {
+   "picture": "podillia-bush-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-car-1.png": {
+   "picture": "podillia-car-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-car-2.png": {
+   "picture": "podillia-car-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-car-3.png": {
+   "picture": "podillia-car-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-farm-1.png": {
+   "picture": "podillia-farm-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-farm-2.png": {
+   "picture": "podillia-farm-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-house-1.png": {
+   "picture": "podillia-house-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-house-2.png": {
+   "picture": "podillia-house-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-house-3.png": {
+   "picture": "podillia-house-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-house-4.png": {
+   "picture": "podillia-house-4",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-oncoming-1.png": {
+   "picture": "podillia-oncoming-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-oncoming-2.png": {
+   "picture": "podillia-oncoming-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B with reference pictures (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-shop-1.png": {
+   "picture": "podillia-shop-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-shop-2.png": {
+   "picture": "podillia-shop-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-street-1.png": {
+   "picture": "podillia-street-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-street-2.png": {
+   "picture": "podillia-street-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-street-3.png": {
+   "picture": "podillia-street-3",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-terrace-1.png": {
+   "picture": "podillia-terrace-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-tree-1.png": {
+   "picture": "podillia-tree-1",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "podillia-tree-2.png": {
+   "picture": "podillia-tree-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-apartment-1.png": {
+   "picture": "polissia-apartment-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-board-1.png": {
+   "picture": "polissia-board-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-bush-1.png": {
+   "picture": "polissia-bush-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-car-1.png": {
+   "picture": "polissia-car-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-car-2.png": {
+   "picture": "polissia-car-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-car-3.png": {
+   "picture": "polissia-car-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-farm-1.png": {
+   "picture": "polissia-farm-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-farm-2.png": {
+   "picture": "polissia-farm-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-house-1.png": {
+   "picture": "polissia-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-house-2.png": {
+   "picture": "polissia-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-house-3.png": {
+   "picture": "polissia-house-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-house-4.png": {
+   "picture": "polissia-house-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-house-5.png": {
+   "picture": "polissia-house-5",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-oncoming-1.png": {
+   "picture": "polissia-oncoming-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-oncoming-2.png": {
+   "picture": "polissia-oncoming-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-shop-1.png": {
+   "picture": "polissia-shop-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-terrace-1.png": {
+   "picture": "polissia-terrace-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-tree-1.png": {
+   "picture": "polissia-tree-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "polissia-tree-2.png": {
+   "picture": "polissia-tree-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "rider-bike.png": {
+   "picture": "rider-bike",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_plus (exact style not logged; $0.06 a picture)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "rider-moto.png": {
+   "picture": "rider-moto",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_plus (exact style not logged; $0.06 a picture)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "rider-samokat.png": {
+   "picture": "rider-samokat",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_plus (exact style not logged; $0.06 a picture)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "rider-scooter.png": {
+   "picture": "rider-scooter",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_plus (exact style not logged; $0.06 a picture)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "rider-walker.png": {
+   "picture": "rider-walker",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_plus (exact style not logged; $0.06 a picture)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-apartment-1.png": {
+   "picture": "slobozhanshchyna-apartment-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-apartment-2.png": {
+   "picture": "slobozhanshchyna-apartment-2",
+   "source": "Cloudflare Workers AI through scripts/free-art.py, cut out and reduced to the game palette",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-board-1.png": {
+   "picture": "slobozhanshchyna-board-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-bush-1.png": {
+   "picture": "slobozhanshchyna-bush-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-car-1.png": {
+   "picture": "slobozhanshchyna-car-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-car-2.png": {
+   "picture": "slobozhanshchyna-car-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-car-3.png": {
+   "picture": "slobozhanshchyna-car-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-farm-1.png": {
+   "picture": "slobozhanshchyna-farm-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-farm-2.png": {
+   "picture": "slobozhanshchyna-farm-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-house-1.png": {
+   "picture": "slobozhanshchyna-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-house-2.png": {
+   "picture": "slobozhanshchyna-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-house-3.png": {
+   "picture": "slobozhanshchyna-house-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-oncoming-1.png": {
+   "picture": "slobozhanshchyna-oncoming-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-oncoming-2.png": {
+   "picture": "slobozhanshchyna-oncoming-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-shop-1.png": {
+   "picture": "slobozhanshchyna-shop-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-shop-2.png": {
+   "picture": "slobozhanshchyna-shop-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-street-1.png": {
+   "picture": "slobozhanshchyna-street-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-street-2.png": {
+   "picture": "slobozhanshchyna-street-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-street-3.png": {
+   "picture": "slobozhanshchyna-street-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-terrace-1.png": {
+   "picture": "slobozhanshchyna-terrace-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-tree-1.png": {
+   "picture": "slobozhanshchyna-tree-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "slobozhanshchyna-tree-2.png": {
+   "picture": "slobozhanshchyna-tree-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-board-1.png": {
+   "picture": "tavria-steppe-board-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-bush-1.png": {
+   "picture": "tavria-steppe-bush-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-car-1.png": {
+   "picture": "tavria-steppe-car-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-car-2.png": {
+   "picture": "tavria-steppe-car-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-car-3.png": {
+   "picture": "tavria-steppe-car-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-farm-1.png": {
+   "picture": "tavria-steppe-farm-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-farm-2.png": {
+   "picture": "tavria-steppe-farm-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-farm-3.png": {
+   "picture": "tavria-steppe-farm-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-farm-4.png": {
+   "picture": "tavria-steppe-farm-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-house-1.png": {
+   "picture": "tavria-steppe-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-house-2.png": {
+   "picture": "tavria-steppe-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-house-3.png": {
+   "picture": "tavria-steppe-house-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-house-4.png": {
+   "picture": "tavria-steppe-house-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-oncoming-1.png": {
+   "picture": "tavria-steppe-oncoming-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-oncoming-2.png": {
+   "picture": "tavria-steppe-oncoming-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-shop-1.png": {
+   "picture": "tavria-steppe-shop-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-street-1.png": {
+   "picture": "tavria-steppe-street-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-street-2.png": {
+   "picture": "tavria-steppe-street-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-terrace-1.png": {
+   "picture": "tavria-steppe-terrace-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-tree-1.png": {
+   "picture": "tavria-steppe-tree-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "tavria-steppe-tree-2.png": {
+   "picture": "tavria-steppe-tree-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-board-1.png": {
+   "picture": "zakarpattia-board-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-board-2.png": {
+   "picture": "zakarpattia-board-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-bush-1.png": {
+   "picture": "zakarpattia-bush-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-bush-2.png": {
+   "picture": "zakarpattia-bush-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-car-1.png": {
+   "picture": "zakarpattia-car-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-car-2.png": {
+   "picture": "zakarpattia-car-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-car-3.png": {
+   "picture": "zakarpattia-car-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-car-4.png": {
+   "picture": "zakarpattia-car-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-farm-1.png": {
+   "picture": "zakarpattia-farm-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-farm-2.png": {
+   "picture": "zakarpattia-farm-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-farm-3.png": {
+   "picture": "zakarpattia-farm-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-farm-4.png": {
+   "picture": "zakarpattia-farm-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-farm-5.png": {
+   "picture": "zakarpattia-farm-5",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-farm-6.png": {
+   "picture": "zakarpattia-farm-6",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-house-1.png": {
+   "picture": "zakarpattia-house-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-house-2.png": {
+   "picture": "zakarpattia-house-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-house-3.png": {
+   "picture": "zakarpattia-house-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-house-4.png": {
+   "picture": "zakarpattia-house-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-house-5.png": {
+   "picture": "zakarpattia-house-5",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-house-6.png": {
+   "picture": "zakarpattia-house-6",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-oncoming-1.png": {
+   "picture": "zakarpattia-oncoming-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-oncoming-2.png": {
+   "picture": "zakarpattia-oncoming-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-oncoming-3.png": {
+   "picture": "zakarpattia-oncoming-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-shop-1.png": {
+   "picture": "zakarpattia-shop-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-shop-2.png": {
+   "picture": "zakarpattia-shop-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-shop-3.png": {
+   "picture": "zakarpattia-shop-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-shop-4.png": {
+   "picture": "zakarpattia-shop-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-shop-5.png": {
+   "picture": "zakarpattia-shop-5",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-shop-6.png": {
+   "picture": "zakarpattia-shop-6",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-street-1.png": {
+   "picture": "zakarpattia-street-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-street-2.png": {
+   "picture": "zakarpattia-street-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-street-3.png": {
+   "picture": "zakarpattia-street-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-street-4.png": {
+   "picture": "zakarpattia-street-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-terrace-1.png": {
+   "picture": "zakarpattia-terrace-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-terrace-2.png": {
+   "picture": "zakarpattia-terrace-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-terrace-3.png": {
+   "picture": "zakarpattia-terrace-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-terrace-4.png": {
+   "picture": "zakarpattia-terrace-4",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-terrace-5.png": {
+   "picture": "zakarpattia-terrace-5",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-terrace-6.png": {
+   "picture": "zakarpattia-terrace-6",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-tree-1.png": {
+   "picture": "zakarpattia-tree-1",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-tree-2.png": {
+   "picture": "zakarpattia-tree-2",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "zakarpattia-tree-3.png": {
+   "picture": "zakarpattia-tree-3",
+   "source": "RetroDiffusion API through scripts/rd.mjs, cleaned by scripts/clean.mjs",
+   "model": "RetroDiffusion rd_pro__default",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/chernihiv.png": {
+   "picture": "city card: Чернігів, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/chernivtsi.png": {
+   "picture": "city card: Чернівці, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/dnipro.png": {
+   "picture": "city card: Дніпро, Дніпропетровська область, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/donetsk.png": {
+   "picture": "city card: Донецьк, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/izmail.png": {
+   "picture": "city card: Ізмаїл, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/kamianets-podilskyi.png": {
+   "picture": "city card: Кам'янець-Подільський, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/kerch.png": {
+   "picture": "city card: Керч, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/kharkiv.png": {
+   "picture": "city card: Харків, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/kherson.png": {
+   "picture": "city card: Херсон, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/kyiv.png": {
+   "picture": "city card: Київ, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/luhansk.png": {
+   "picture": "city card: Луганськ, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/lutsk.png": {
+   "picture": "city card: Луцьк, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/lviv.png": {
+   "picture": "city card: Львів, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/mariupol.png": {
+   "picture": "city card: Маріуполь, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/odesa.png": {
+   "picture": "city card: Одеса, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/sevastopol.png": {
+   "picture": "city card: Севастополь, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/sumy.png": {
+   "picture": "city card: Суми, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/uzhhorod.png": {
+   "picture": "city card: Ужгород, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/vinnytsia.png": {
+   "picture": "city card: Вінниця, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  },
+  "cards/yalta.png": {
+   "picture": "city card: Ялта, Україна",
+   "source": "Cloudflare Workers AI through a local card script (not shipped), reduced to the game palette; prompts in art/cards/prompts.json",
+   "model": "FLUX.2 [klein] 4B (@cf/black-forest-labs/flux-2-klein-4b, Apache-2.0)",
+   "licence": "CC BY 4.0",
+   "author": "Kyrylo Kozak (prompt and selection)"
+  }
+ }
+}

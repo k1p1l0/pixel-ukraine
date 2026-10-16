@@ -1,0 +1,7 @@
+# Local only: npx wrangler@4 dev --port 8795 (the AI binding calls Workers AI on your account). Never `wrangler deploy` this.
+name = "pixel-path-ai-local"
+main = "worker.mjs"
+compatibility_date = "2025-06-01"
+
+[ai]
+binding = "AI"

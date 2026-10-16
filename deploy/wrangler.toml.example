@@ -1,0 +1,38 @@
+# Deploy your own copy of the game to Cloudflare Workers (the free plan is enough), straight from this repo. From the repo root:
+#   node scripts/viewer.mjs --trip trips/ukraine-loop        # builds index.html, road.js, layout.js, fonts/ and sfx/ into the trip
+#   cp scripts/mp/vote.html trips/ukraine-loop/              # only if you turn on the city vote below
+#   cp deploy/wrangler.toml.example deploy/wrangler.toml     # then fill in name (deploy/wrangler.toml is ignored by git)
+#   npx --yes wrangler@4.77.0 login
+#   npx --yes wrangler@4.77.0 deploy --config deploy/wrangler.toml
+# Paths here are relative to this file. trips/ukraine-loop/.assetsignore keeps the art sources and docs out of the upload.
+name = ""                       # required: your Worker's name; the game is then at https://<name>.<your-subdomain>.workers.dev
+main = "../scripts/mp/worker.mjs"
+compatibility_date = "2025-06-01"
+# account_id = ""               # only when your Cloudflare login has more than one account (npx wrangler whoami lists them)
+
+[assets]
+directory = "../trips/ukraine-loop"
+binding = "ASSETS"
+
+[[durable_objects.bindings]]
+name = "ROOM"
+class_name = "Room"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Room"]
+
+# Optional: the city vote by donation to a Monobank jar. See scripts/mp/wrangler.toml.example for what each value means.
+# Secrets, never in this file:
+#   npx wrangler secret put MONO_TOKEN --config deploy/wrangler.toml     # the jar owner's read-only Monobank token
+#   npx wrangler secret put VOTE_ASSIGN --config deploy/wrangler.toml    # optional: lost-comment receipts assigned by hand
+# [[durable_objects.bindings]]
+# name = "VOTES"
+# class_name = "Votes"
+# [[migrations]]
+# tag = "v2"
+# new_sqlite_classes = ["Votes"]
+# [vars]
+# MONO_JAR = ""
+# VOTE_START = ""
+# ADD_CITY_UAH = "5000"

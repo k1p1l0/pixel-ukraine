@@ -1,0 +1,47 @@
+# Checks the pictures a pull request adds or changes (scripts/art-check.mjs): 8-bit RGBA, hard alpha, no bigger than the
+# plan, at most 48 colours and 16 KB, no colour over 80% of the picture, none of the clean.mjs drop flags.
+# Run by hand (Actions > art check > Run workflow) it reports on every picture of every trip and never fails.
+name: art check
+on:
+  pull_request:
+    paths: ['trips/*/art/**', 'scripts/art-check.mjs', 'scripts/art-checks.mjs', 'scripts/lib.mjs']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  art:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check the changed pictures
+        if: github.event_name == 'pull_request'
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          status=0
+          for trip in trips/*/; do
+            trip=${trip%/}
+            [ -f "$trip/art/kit.json" ] || continue
+            names=$(git diff --name-only --diff-filter=AM "$BASE"...HEAD -- ":(glob)$trip/art/*.png" | sed -E 's#.*/##; s#\.png$##' | paste -sd, -)
+            cards=$(git diff --name-only --diff-filter=AM "$BASE"...HEAD -- ":(glob)$trip/art/cards/*.png" | sed -E 's#.*/art/##' | paste -sd, -)
+            list=$(printf '%s\n%s\n' "$names" "$cards" | grep -v '^$' | paste -sd, - || true)
+            [ -n "$list" ] || continue
+            echo "== $trip: $list"
+            node scripts/art-check.mjs --trip "$trip" --cards --only "$list" || status=1
+          done
+          exit $status
+      - name: Report on every picture
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          for trip in trips/*/; do
+            [ -f "$trip/art/kit.json" ] || continue
+            echo "== $trip"
+            node scripts/art-check.mjs --trip "${trip%/}" --cards --report
+          done

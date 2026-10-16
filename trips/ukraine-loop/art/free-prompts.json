@@ -1,0 +1,1410 @@
+{
+ "crimea-south-house-1": {
+  "subject": "a two-storey 19th-century Yalta villa of cream-white limestone with a carved wooden balcony along the upper floor, tall arched windows with green shutters and a low red clay tile hip roof",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Kept villa idea, dropped the palms (scenery). No ref: kerch-house-3 has lettering."
+ },
+ "crimea-south-house-2": {
+  "subject": "a two-storey Crimean Tatar village house with a lower floor of honey-coloured rubble stone, a whitewashed upper floor overhanging on dark wooden beams, small windows with wooden lattice shutters and a flat roof with wide eaves",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Vine pergola dropped (plants clash with template); two storeys to fill 160x128."
+ },
+ "crimea-south-house-3": {
+  "subject": "a two-storey 2000s Yalta family house of apricot-orange stucco with three small balconies with white railings on the upper floor, white plastic windows and a low brown metal hip roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Modern Yalta private house (the old khata was steppe, not South Coast). \"Guesthouse\" avoided: it was lettered on zakarpattia-house-4."
+ },
+ "crimea-south-house-4": {
+  "subject": "a small two-storey 19th-century Crimean neo-Gothic villa of grey-green diabase stone with two square crenellated corner turrets, pointed arched windows and a crenellated parapet along the flat roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Was a copy of house-1; now a diabase neo-Gothic villa as in Gaspra or Alupka."
+ },
+ "crimea-south-farm-1": {
+  "subject": "a two-storey 19th-century Crimean winery building of rough ochre limestone, about one and a half times wider than tall, with three tall arched oak cellar doors on the ground floor, small arched windows above and a low red tile roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Massandra-style stone winery; two storeys so it fills 192x128. No same-kind ref."
+ },
+ "crimea-south-farm-2": {
+  "subject": "a long low Crimean tobacco drying shed, about twice as wide as tall, with a long wall of weathered brown vertical slats and gaps showing hanging golden tobacco leaves, on a low rubble-stone base under a grey slate roof whose ridge runs along its whole width",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "South Coast tobacco shed; differs from farm-1 in material and roof. No ref. | QA 2026-10-14: Came out a nearly square gable-end barn (130x124), not the low wide shed asked; dark filled strips down both sides."
+ },
+ "crimea-south-shop-1": {
+  "subject": "a square-fronted two-storey 1900s Yalta building of cream stucco with a cafe on the ground floor behind a row of white columns, a red-and-white striped awning and a blank signboard, and tall windows with a wrought-iron balcony above",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Cafe on the ground floor behind a white colonnade. No ref for shops."
+ },
+ "crimea-south-shop-2": {
+  "subject": "a two-storey 1950s Yalta building of salmon-pink stucco with an ice cream parlour on the ground floor behind a wide arched glass shop window under a mint-green canopy, and a white stone balcony above",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Kiosk turned into a two-storey building per the shop rule. No ref for shops. | QA 2026-10-14: Painted 2-px black ground line sticks out 16 px past both walls (frame much wider than the building, no solid wall row for the game); grey filled strips down bo | QA2: The hole fill painted 3-4 px dark and grey striped bands down both side walls under the cornice and string course, so the upper storey has a"
+ },
+ "crimea-south-apartment-1": {
+  "subject": "a tall narrow seven-storey 1970s Yalta sanatorium block of white concrete, four windows wide, with a deep balcony at every window, sky-blue balcony panels and a flat roof",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Long low sanatorium made tall and narrow for 128x192; 'Soviet' left out to avoid symbols. No ref."
+ },
+ "crimea-south-tower-1": {
+  "subject": "a slender fourteen-storey 2000s Yalta apartment tower of sand-beige stucco with terracotta-red vertical bands at the corners, glazed balconies on every floor and a red tile pyramid roof",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: catalogue towers are Soviet panel blocks or carry lettering."
+ },
+ "crimea-south-tree-1": {
+  "subject": "a pencil-thin Crimean Italian cypress, a tall narrow column of dense scale-leaved foliage in many small dark green tufts with lighter green highlights, about five times taller than wide, with almost parallel sides tapering only near the top to a sharp point, on a short brown trunk",
+  "tone": "other",
+  "person": false,
+  "ref": "kerch-tree-1",
+  "skip": false,
+  "note": "No ref: kerch-tree-1 has sky-blue pixels in its crown and is the neighbouring region's cypress. Narrow by design (rule 6), so it fills about a quarter of the frame width. | QA 2026-10-14: Broad cone about 2.5 times taller than wide, like a thuja, not a pencil-thin columnar cypress; trunk snapped to green. | QA2: Now a narrow spire (about 4:1), but the foliage is one flat dark green fill (80% of pixels one colour) with no leaf texture or shading, so i"
+ },
+ "crimea-south-tree-2": {
+  "subject": "Chinese windmill fan palm with one straight slender trunk wrapped in shaggy dark brown fibre and a full round crown of stiff green fan-shaped leaves on long stalks",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Trachycarpus is the common Yalta palm. No palm in the catalogue."
+ },
+ "crimea-south-bush-1": {
+  "subject": "low rounded oleander shrub, wider than tall, dense with narrow dark green leaves and covered in clusters of pink flowers",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: catalogue bushes are other species or broken."
+ },
+ "crimea-south-street-1": {
+  "subject": "a woman holidaymaker in a wide-brimmed straw sun hat and sunglasses, a sleeveless coral-red knee-length summer dress with white polka dots and tan leather sandals, holding a strawberry ice cream cone",
+  "tone": "other",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "Couple cut to one adult. No ref: the casual-person refs carry other props (coffee, backpack)."
+ },
+ "crimea-south-street-2": {
+  "subject": "a middle-aged Crimean Tatar man with a black moustache in a tall flat-topped black curly lambskin kalpak hat, a white long-sleeved shirt, a black velvet waistcoat with gold embroidery, a red sash, black trousers and black boots",
+  "tone": "pale",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "Respectful festive traditional dress. No ref: the folk-dress man ref holds a scythe."
+ },
+ "crimea-south-street-3": {
+  "subject": "a young Canary date palm with a short thick scaly trunk and a fountain of long arching feathery green fronds, planted in a large square tub of brown oak planks with black iron bands",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Kept palm-in-tub idea (Yalta embankment); Canary palm differs from tree-2's fan palm. No ref."
+ },
+ "crimea-south-board-1": {
+  "subject": "a large billboard on two thick plain grey steel posts, with a wide panel in a thin grey frame showing a poster picture of green Crimean mountains above a turquoise sea and a pebble beach with a few big red-and-white striped umbrellas",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Picture-only poster (no hotel, so no hotel name). No ref for boards. | QA 2026-10-14: Lattice post openings kept the backdrop as pale cyan patches; beach umbrellas came out grey, not red-and-white."
+ },
+ "crimea-south-car-1": {
+  "subject": "a 1980s Soviet GAZ-53 flatbed truck with a pale mint-green cab, a brown wooden drop-side bed loaded with stacked crates of dark purple grapes, dual rear wheels and round red tail lights",
+  "tone": "other",
+  "person": false,
+  "ref": "azov-car-1",
+  "skip": false,
+  "note": "Ref azov-car-1: clean GAZ-53-type truck in an exact rear view. Mint-green cab so it differs from the pale blue GAZ-53s of Kerch and Dnipro-steppe next door."
+ },
+ "crimea-south-car-2": {
+  "subject": "a pearl-white 2000s boxy five-door SUV with a big round plain black spare wheel cover in the middle of its rear door, tall vertical tail lights, roof rails and no emblem",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: the only modern SUV picture (kyiv-car-3) is black and in three-quarter view. | QA 2026-10-14: No spare wheel on the rear door; slight three-quarter view showing the right flank, mirror and wheel; small badge marks on the tailgate."
+ },
+ "crimea-south-car-3": {
+  "subject": "a cherry-red 1990s ZAZ-1102 Tavria, a small boxy three-door hatchback with a large sloping glass rear hatch, wide horizontal tail lights, a black plastic bumper and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Tavria, the Ukrainian car named after Crimea. No clean hatchback ref of this era."
+ },
+ "crimea-south-oncoming-1": {
+  "subject": "a mustard-yellow 1970s ZAZ-968 Zaporozhets, a small rounded two-door saloon with a smooth grille-less front, two round headlights, a thin chrome bumper, a curved windscreen and no emblem",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Trolleybus front too tall for 128x96. No ref: a Volga ref would replace this car."
+ },
+ "crimea-south-oncoming-2": {
+  "subject": "a dark grey metallic 2010s mid-size four-door sedan with a wide chrome-trimmed grille between slim swept-back headlights, a large lower air intake and no emblem",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Ref slobozhanshchyna-oncoming-1: silver modern car seen exactly from the front, no readable logo. | QA 2026-10-14: Backdrop cut ate a jagged hole through the lower right of the front (bumper and fog light); the car runs off the top and bottom of the generated frame, wheels c | QA2: The hole and the frame cut-off are fixed, but a painted lilac-grey ground shadow slab (about 84x12 px, #5a5560) now fills the space under th"
+ },
+ "dnipro-steppe-house-1": {
+  "subject": "a compact single-storey 1900s Kherson village cottage of whitewashed adobe under a tall golden reed-thatched hip roof, with two small blue-framed windows, blue wooden shutters, a plank door and a reddish-brown painted plinth",
+  "tone": "pale",
+  "person": false,
+  "ref": "zakarpattia-house-2",
+  "skip": false,
+  "note": "ref is a clean thatched whitewashed khata (154x109), same type and size; reed thatch suits the southern steppe"
+ },
+ "dnipro-steppe-house-2": {
+  "subject": "a compact single-storey 1900s Kherson merchant house of ochre-yellow stucco on a high grey plinth, with a panelled door under a small raised parapet between two tall windows in white stucco frames, and a grey tin hip roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Three-bay front for the 1.25 frame. No clean stucco town-house ref (kyiv-house-2 has a pseudo-lettered sign)."
+ },
+ "dnipro-steppe-house-3": {
+  "subject": "a 1960s single-storey Melitopol village house with sky-blue plastered walls, white window frames, a silver tin hip roof and a wooden grape-vine pergola hung with purple grapes along the facade",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: azov-house-3 is limestone with a slate roof and would replace the sky-blue plaster. Pale for the silver roof."
+ },
+ "dnipro-steppe-house-4": {
+  "subject": "a 1900s Melitopol German-colonist village house of red brick, single storey with a tall gabled facade, three white-framed windows with green wooden shutters, decorative corbelled brick cornices and a red clay tile roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Molochna colonist house (replaces the duplicate khata). No ref: slobozhanshchyna-house-2 has a long hip-roofed front, not a gable front."
+ },
+ "dnipro-steppe-farm-1": {
+  "subject": "a 1970s concrete grain elevator: a long row of seven tall flat-topped light-grey concrete silos standing side by side, one long flat-roofed gallery running along their tops and a slightly taller square headhouse at one end, one and a half times wider than tall",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "elevator idea kept but reshaped as a long silo row for the 1.5:1 frame; tavria elevator refs are tall and lettered | QA 2026-10-14: 1 px ground line runs 10 px past the left end and 6 px past the right; four domed silos under a canopy on posts instead of seven joined silos; scribbles on a ga"
+ },
+ "dnipro-steppe-farm-2": {
+  "subject": "a long 1950s Kherson farmhouse of smooth whitewashed clay plaster with two small green-framed windows and a plank door, joined at one end to a dark brown plank-walled barn with wide plank doors, all under one tall red-painted tin roof, one and a half times wider than tall",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Pale for the whitewashed walls, so the roof is red tin, not grey slate. kyiv-farm-1/polissia-farm-1 are 3:1 strips, so no ref. | QA 2026-10-14: Whole building is white horizontal clapboard like an American barn, not whitewashed plaster with a separate plank barn; one window, and its frame came out dark,"
+ },
+ "dnipro-steppe-shop-1": {
+  "subject": "a two-storey 1900s Zaporizhzhia red-brick merchant building, about as wide as tall, with a greengrocer's shop on the lower floor, its wide windows piled with striped watermelons under a plain green awning, and arched windows upstairs",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "old market stall broke rule 2; now a two-storey building, the watermelon idea kept inside the shop windows | QA 2026-10-14: The 'blank' signboard carries letter-like glyphs (a garbled ZAPORIZHZHIA); hole fill painted dark patches behind the pediment between the corner pillars."
+ },
+ "dnipro-steppe-shop-2": {
+  "subject": "a two-storey 1970s small-town store of white silicate brick with a flat roof, about as wide as tall, a wide glass shop window, a glass door under a thin concrete canopy, a blank signboard, three plain windows above",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "old one-storey shop raised to two storeys per rule 2"
+ },
+ "dnipro-steppe-apartment-1": {
+  "subject": "a narrow nine-storey 1980s Zaporizhzhia panel apartment block, a single section four windows wide, one and a half times taller than wide, with light grey concrete panels, glazed loggias in mixed colours and a flat roof",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "single section so the block matches the 2:3 frame"
+ },
+ "dnipro-steppe-terrace-1": {
+  "subject": "one narrow two-storey 1900s Kherson town house of a terraced row, slightly taller than wide, salmon-pink stucco with white stucco window frames, three tall windows upstairs, a door and two windows below, a cornice and flat plain sides",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: the only clean terrace (slobozhanshchyna-terrace-1) is red brick and would replace the stucco."
+ },
+ "dnipro-steppe-tree-1": {
+  "subject": "big white poplar with a straight whitish-grey trunk marked with dark diamond-shaped spots and a dense oval crown of dark green leaves with silvery-white undersides, slightly taller than wide",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Broad white poplar instead of a Lombardy poplar so it fills the 0.8 frame. Pale for the whitish trunk and silvery leaf undersides. No leading article."
+ },
+ "dnipro-steppe-tree-2": {
+  "subject": "old weeping willow with a short thick furrowed grey-brown trunk and a wide rounded dome of long thin fresh green and yellow-green branches hanging straight down like a curtain, slightly taller than wide",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "park-tree-3 willow looks broken (tangled, no trunk base, red patches), so no ref; silhouette clearly differs from tree-1 | QA 2026-10-14: Flat unshaded acid-yellow crown with heavy black strokes and a solid black silhouette trunk; reads as clip art next to the rest of the set."
+ },
+ "dnipro-steppe-bush-1": {
+  "subject": "low rounded tamarisk shrub, wider than tall, a dense mass of thin reddish-brown stems with feathery grey-green foliage and soft plumes of tiny pink flowers",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "tamarisk of the Kherson coast and north Crimea; no tamarisk ref, tavria-steppe-bush-1 banned"
+ },
+ "dnipro-steppe-street-1": {
+  "subject": "a dignified Zaporizhzhian Cossack musician with a shaved head and one long forelock falling from the crown over his ear, a long drooping moustache over a clean-shaven chin, a red knee-length zhupan coat, a blue sash, wide dark-blue sharovary trousers and red boots, holding a large egg-shaped wooden bandura upright against his chest like a small harp, both hands plucking the dozens of thin parallel strings across its wide flat soundboard, with only a short stubby neck at its top",
+  "tone": "other",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "folk-ensemble costume, no weapon, no hat (avoids a Russian Cossack look); no matching ref | QA 2026-10-14: The forelock became a long braid hanging from the chin like a beard, and the instrument is a long-necked lute, not a round-bodied bandura. | QA2: The forelock and clean chin are fixed, but the instrument is still a long-necked lute with a pegbox, held like a guitar. It is not a bandura"
+ },
+ "dnipro-steppe-street-2": {
+  "subject": "a young adult man in a navy-blue T-shirt, knee-length beige chino shorts, grey canvas sneakers and dark sunglasses, holding a plain brown paper takeaway coffee cup in one hand, his other arm held slightly away from his side",
+  "tone": "other",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "kyiv-street-1 would copy its beard and tote bag, so no ref | QA2: Not fixed: a light grey backdrop sliver (1-2 px wide, about 12 px tall, x 25-26, y 35-47) again sits between his left arm and the T-shirt an"
+ },
+ "dnipro-steppe-street-3": {
+  "subject": "a small 2010s coffee trailer on two wheels, a boxy teal-green cabin with a wide serving hatch under a red-and-white striped awning, a small counter and a short tow bar",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "old coffee-kiosk idea kept; no matching ref"
+ },
+ "dnipro-steppe-board-1": {
+  "subject": "a wide billboard about twice as wide as tall on two short grey steel posts, its panel in a thin dark grey frame, with a poster picture of a big red watermelon slice beside two striped green watermelons",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "picture-only poster; 2:1 board plus short posts fits the 1.5:1 frame"
+ },
+ "dnipro-steppe-car-1": {
+  "subject": "a 1980s Soviet GAZ-53 grain truck with a rounded light-blue cab, a high brown wooden drop-side bed raised with extra grain boards, a wooden tailgate and dual rear wheels",
+  "tone": "other",
+  "person": false,
+  "ref": "azov-car-1",
+  "skip": false,
+  "note": "ref: clean straight rear view of a Soviet drop-side truck; may pull the cab toward white"
+ },
+ "dnipro-steppe-car-2": {
+  "subject": "a dark green 1990s Zaporizhzhia-built ZAZ-1102 Tavria, a small boxy three-door hatchback with a sloping rear window, black plastic bumpers, wide horizontal tail lights and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "regional successor to the old white Lada; only sedan refs exist, which would turn it into a sedan"
+ },
+ "dnipro-steppe-car-3": {
+  "subject": "a yellow 2000s Bogdan A092 marshrutka, a boxy city midibus with a flat rear wall, one big rear window, a small black bumper and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "marshrutka refs are angled (azov-car-3, slobozhanshchyna-car-1) or show a route number (kyiv-car-1)"
+ },
+ "dnipro-steppe-oncoming-1": {
+  "subject": "a red 1980s Dnipro-built YuMZ-6 wheeled tractor with a narrow hood, a radiator grille and two round headlights, small front wheels, big wide-set rear wheels, a boxy red cab and no emblem",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "YuMZ-6 was built in Dnipro. A cab tractor front is about 0.75:1 in a 1.33 frame, so expect about 60% width fill. polissia-oncoming-1 is cab-less, so no ref."
+ },
+ "dnipro-steppe-oncoming-2": {
+  "subject": "a silver 2010s Zaporizhzhia-built ZAZ Vida, a five-door compact hatchback with large swept-back headlights, a plain two-part grille with no emblem and a black lower air intake",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "silver hatchback refs (kyiv-oncoming-2, slobozhanshchyna-oncoming-1) show grille emblems"
+ },
+ "odesa-house-1": {
+  "subject": "a one-storey 19th-century Odesa house of honey-yellow shell-limestone blocks with a grey tin hip roof and a chimney, two tall windows with green wooden shutters, a plank door and a grapevine trellis across its front",
+  "tone": "other",
+  "person": false,
+  "ref": "azov-house-3",
+  "skip": false,
+  "note": "ref azov-house-3: the same one-storey shell-limestone house with a grapevine, clean, blank sign, aspect 1.29 vs frame 1.25. Courtyard gate dropped so the house stays compact"
+ },
+ "odesa-house-2": {
+  "subject": "a single-storey Odesa village house of whitewashed adobe with a green-painted tin hip roof sloping down on all four sides, sky-blue window frames and shutters, and a covered front gallery on carved sky-blue wooden posts",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Odesa village house (the Bessarabia region has its own houses next door). Green roof, not grey, so nothing mid-grey meets the grey backdrop. No ref: the whitewashed-house refs carry lettering. | QA 2026-10-14: Roof is drawn as a tall flat green rectangle, a box rather than a hip roof, half the house's height; flat saturated green and cyan with no texture, crude next t"
+ },
+ "odesa-house-3": {
+  "subject": "a 1900s Odesa summer villa of cream stucco with a glazed veranda of green-painted wood along its front, tall windows and a steep red clay-tile roof with an attic gable",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "the Fontan dacha type. 'Seaside' dropped so no sea gets painted. No ref: no villa with a veranda in the catalogue (kerch-house-3 has lettering)"
+ },
+ "odesa-shop-1": {
+  "subject": "a square-fronted two-storey 19th-century Odesa neoclassical house of salmon-pink stucco with white window surrounds, a ground-floor cafe with tall arched glass windows under a dark green awning, and a wrought-iron balcony above",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "tables outside dropped: they bring pavement and a scene. Square front for the 160x160 frame"
+ },
+ "odesa-shop-2": {
+  "subject": "a square-fronted two-storey 1900s Odesa house of pistachio-green stucco with white window frames and a ground-floor greengrocer's with a wide open shopfront full of crates of red tomatoes and watermelons under a red-and-white striped awning",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "the old Privoz market stall became a two-storey house with a greengrocer's on the ground floor (rule 2); it keeps the Privoz produce"
+ },
+ "odesa-apartment-1": {
+  "subject": "a tall narrow five-storey 1900s Odesa Italianate apartment house of pale yellow stucco, three windows wide, with white pilasters, white window surrounds, a wrought-iron balcony on every floor and a heavy cornice",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "raised from four to five storeys and three windows wide to fill the tall 128x192 frame"
+ },
+ "odesa-apartment-2": {
+  "subject": "a tall narrow six-storey 1910s Odesa Art Nouveau apartment house of warm grey stone, four windows wide, with tall arched windows, carved stone faces above them, curved wrought-iron balconies and a rounded attic gable",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "raised from three to six storeys for the tall frame; grey Art Nouveau with arches and masks, clearly different from the yellow Italianate apartment-1. Mid-grey stone, so white backdrop"
+ },
+ "odesa-farm-1": {
+  "subject": "a long low Odesa village barn with clay walls painted bright sky-blue, a thick shaggy roof of coarse weathered brown-grey reed thatch in heavy bundles, a wide plank door and two small windows, about one and a half times wider than tall",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Blue clay walls and reed roof of the Odesa estuary villages; not limestone, so it does not repeat house-1 and industrial-1. No ref: farm refs are 3:1 or carry scenery. | QA 2026-10-14: The grey thatch lost its texture and reads as a flat grey slab with a few dots over flat cyan walls: no reed thatch, crude next to the game's farms."
+ },
+ "odesa-industrial-1": {
+  "subject": "a two-storey 19th-century Odesa grain warehouse of weathered grey-ochre shell-limestone blocks, four arched bays wide, with iron-shuttered arched windows, wide arched loading doors and a shallow grey tin roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "the old limestone grain warehouses of the Odesa port area. 'Port' left out so no cranes or water appear"
+ },
+ "odesa-terrace-1": {
+  "subject": "a narrow two-storey 19th-century Odesa terraced row house of terracotta-red stucco with a tall arched doorway and one window below, two tall windows above, white stucco window surrounds, a small wrought-iron balcony, a cornice and flat plain sides",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "says 'flat plain sides' without naming neighbours, because earlier terraces drew neighbour fragments. No ref: the only clean terrace (slobozhanshchyna-terrace-1) is red brick and would be copied | QA 2026-10-14: One window wide instead of two; the front is an almost empty flat red slab (6 colours); the white surrounds came out pale blue; the small plaque by the door has"
+ },
+ "odesa-tree-1": {
+  "subject": "old black locust tree (Robinia) with one dark, deeply furrowed trunk and a full, irregular crown of small feathery light-green leaves hung with drooping clusters of white blossom, a little taller than wide",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "the Odesa 'white acacia' is a black locust. The word acacia is left out: it gave an African umbrella acacia (azov-tree-1, so never use that ref). Pale because the white blossom clusters would be cut away as backdrop pockets on white"
+ },
+ "odesa-tree-2": {
+  "subject": "old plane tree (Platanus) with a thick straight trunk of mottled cream, olive and grey peeling bark and a broad, dense, dome-shaped crown of large maple-like bright-green leaves",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "the street plane trees of Odesa. No ref: no plane in the catalogue, and the chestnut refs would bring palmate leaves and a dark trunk"
+ },
+ "odesa-bush-1": {
+  "subject": "low rounded lilac shrub, wider than tall, with dense heart-shaped green leaves and many upright cone-shaped clusters of pale purple flowers",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Lilac, so the three consecutive southern regions do not all show the same pink tamarisk. No ref: park-bush-1 is a lilac but would be copied."
+ },
+ "odesa-street-1": {
+  "subject": "an elegant middle-aged Odesa woman in a wide-brimmed straw sun hat with a navy ribbon, a knee-length navy-blue dress with white polka dots, red low-heeled shoes and a small red handbag",
+  "tone": "other",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "the small dog is dropped (one object only). A straw hat, not white, so it survives the white-backdrop cut-out. No ref: the woman refs wear folk dress (zakarpattia-street-2) or hold a lettered sign (donbas-street-2)"
+ },
+ "odesa-street-2": {
+  "subject": "a middle-aged Odesa street musician in a white shirt with thin horizontal navy-blue stripes, black trousers, black shoes and a black flat cap, holding a red button accordion against his chest",
+  "tone": "pale",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "the telnyashka is described by its stripes, because the word gave orange stripes in the bake-off. Pale for the white striped shirt. No ref: the man refs carry props (rods and bucket, coffee and tote) that would be copied"
+ },
+ "odesa-street-3": {
+  "subject": "a heavy 19th-century-style Odesa boulevard bench with a single wide solid backrest panel and a single wide solid seat panel of dark-green-painted wood on two solid slab-like black cast-iron side frames",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "ref kyiv-street-3: the same slatted bench on ornate cast-iron legs, clean (azov-street-3 has a seagull on it). Lamp post dropped: a second object, and too thin for the 96x96 frame. Slats may come out brown like the ref | QA 2026-10-14: White backdrop pockets stayed inside the bench: lines between the backrest slats, a white patch inside the right armrest scroll and white bits in the left leg s | QA2: Round 1 problem persists: white backdrop still shows in the gaps between the backrest boards and between seat and backrest, as a big patch i"
+ },
+ "odesa-board-1": {
+  "subject": "a large billboard on two short grey steel posts, its wide panel in a thin dark grey frame showing a poster picture of a golden sandy beach with red-and-white striped umbrellas and a turquoise sea",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "an Odesa beach picture in place of the concert poster, which would invite band names. Short posts so board and posts fit the 192x128 frame"
+ },
+ "odesa-car-1": {
+  "subject": "a yellow 2000s Daewoo Lanos four-door sedan with rounded edges, a short boot lid, wide red tail lights and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Yellow Lanos without the taxi roof sign (it would carry TAXI lettering). No ref: slobozhanshchyna-car-2 is a white Lanos in three-quarter view."
+ },
+ "odesa-car-2": {
+  "subject": "a pearl-white 2010s boxy full-size SUV with a black-covered spare wheel on its side-hinged rear door, tall vertical tail lights and no emblem, with the plain background showing under the car between the wheels",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "no ref: kyiv-car-3 is a black SUV in three-quarter view, and the ref prompt copies its colours and angle | QA 2026-10-14: A blue-grey painted shadow fills the space under the car between the rear wheels and runs as a strip below the tyres; the roof edge is slightly eroded."
+ },
+ "odesa-car-3": {
+  "subject": "an orange 2000s Bogdan A092 marshrutka minibus with a boxy body, a big rear window, red tail lights, a black rear bumper and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Orange so it differs from the yellow Lanos and the yellow minibuses of other regions. Taller than the 4:3 frame, so expect about 65% width fill. No ref: marshrutka refs have plate or route lettering, a sky fragment, or are a GAZelle."
+ },
+ "odesa-oncoming-1": {
+  "subject": "a black 2018 Toyota Camry XV70 sedan with slim swept-back headlights, a wide low plain grille and no emblem",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "the old yellow taxi became a black Camry, so it does not repeat the car-1 taxi (model, colour, era all differ). No ref: the sedan-front refs show emblems"
+ },
+ "odesa-oncoming-2": {
+  "subject": "a silver 2015-era compact electric five-door hatchback with a smooth rounded nose without a grille, large headlights sweeping up towards the windscreen and a plain lower bumper",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "the Leaf is a very common used import on Ukrainian roads. No ref: kyiv-oncoming-2 is a Golf with an emblem and would be copied | 2026-10-14: brand name removed after three flagged outputs (3030)"
+ },
+ "bessarabia-farm-1": {
+  "subject": "a Bessarabian farmhouse of whitewashed adobe under one continuous golden reed-thatched roof, the dwelling with blue-framed windows at one end and a barn with wide plank doors at the other, about one and a half times wider than tall",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Budjak long-house: dwelling and barn under one roof. kyiv-farm-2 rejected (slate roof, 3:1 shape)."
+ },
+ "bessarabia-farm-2": {
+  "subject": "a long low Bessarabian stone winery barn of rough golden-yellow limestone blocks with a red clay-tile gable roof, a wide arched oak double door in the middle and small barred windows, about one and a half times wider than tall",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Barrels dropped (separate objects). Stone farm refs all carry scenery."
+ },
+ "bessarabia-house-1": {
+  "subject": "a single-storey gable-fronted Bessarabian village house with bright blue plastered walls, white corner pilasters, two tall white-framed windows and a tall gable of vertical brown wooden planks edged with wide solid blue-painted bargeboards with a scalloped lower edge and a carved wooden peak finial",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Long-house street end: plank gable, fretwork, finial. Pergola dropped. No ref of this type. | QA 2026-10-14: The white fretwork eaves and the peak finial were lost in the cut (white trim on the white backdrop). Ragged grey and white fragments are left along both gable"
+ },
+ "bessarabia-house-2": {
+  "subject": "a compact single-storey Bessarabian village house with mustard-yellow lime-washed adobe walls, a tall hipped red clay-tile roof over a deep porch running the length of the front on slender blue wooden posts, blue window frames and a blue double door",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Was a generic khata that repeated house-3; now the old porch-house type."
+ },
+ "bessarabia-house-3": {
+  "subject": "a small Danube-delta Lipovan fisherman's cottage with whitewashed clay-plastered reed walls, a steep thick golden reed-thatched roof, small windows with blue carved wooden surrounds and a blue plank door",
+  "tone": "pale",
+  "person": false,
+  "ref": "zakarpattia-house-2",
+  "skip": false,
+  "note": "Ref: clean whitewashed thatched cottage with a blank sign, same kind and shape."
+ },
+ "bessarabia-house-4": {
+  "subject": "a square-plan 1970s Bessarabian village house with mint green textured plaster walls, white window surrounds and corner quoins, three large blue-framed windows and a hipped roof of grey corrugated asbestos-cement sheets with an ornate cut-tin chimney cap",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Was a duplicate of house-1; now the 1970s square house with a tin chimney cap."
+ },
+ "bessarabia-shop-1": {
+  "subject": "a two-storey 1900s Bessarabian town building of sky-blue plaster with white pilasters and cornice, a ground-floor shop with a wide shop window, a glazed door and a blank signboard, and three tall white-framed windows upstairs",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Shop on the ground floor of a two-storey building, about square. No ref for shops."
+ },
+ "bessarabia-terrace-1": {
+  "subject": "one narrow two-storey house of an 1890s Izmail terraced row, salmon-pink plaster with white window surrounds, a wooden front door with a fanlight, a cornice and a grey tin roof, flat sides where it joins its neighbours",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "slobozhanshchyna-terrace-1 rejected: its red brick would override the plaster."
+ },
+ "bessarabia-tree-1": {
+  "subject": "big old walnut tree with a stout smooth pale grey trunk, a few thick spreading limbs and a broad rounded crown of large light green leaves, a little taller than wide",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No article: the template already starts 'A single isolated'. Chestnut refs have the wrong leaves."
+ },
+ "bessarabia-tree-2": {
+  "subject": "old weeping willow with a thick gnarled grey-brown trunk and a broad rounded crown of long thin pale green branches drooping like a curtain, about as wide as tall",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "'By water' dropped (scenery). park-tree-3 rejected as broken."
+ },
+ "bessarabia-bush-1": {
+  "subject": "low rounded tamarisk shrub, wider than tall, with feathery grey-green foliage and soft plumes of tiny pink flowers on thin reddish-brown branches",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Tamarisk of the lagoon shores. No tamarisk ref."
+ },
+ "bessarabia-street-1": {
+  "subject": "a Bessarabian Bulgarian woman in a black sleeveless sukman dress over a white long-sleeved blouse with red embroidered cuffs, a red-and-orange striped woven apron, a white headscarf and black shoes, holding a wicker basket of dark purple grapes",
+  "tone": "pale",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: the folk-dress ref would replace the Bulgarian sukman costume. Pale for the white blouse and headscarf."
+ },
+ "bessarabia-street-2": {
+  "subject": "a grey-bearded Danube delta fisherman in a thick cream knitted wool sweater, dark olive-green canvas trousers tucked into tall black rubber boots and a navy flat cap, holding a folded green fishing net",
+  "tone": "pale",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: azov-street-1 carries rods and a bucket. Cream sweater (pale), so it differs from the striped-shirt Odesa musician next door."
+ },
+ "bessarabia-street-3": {
+  "subject": "a squat Bessarabian village well about as wide as tall: a plain blank waist-high square shaft of whitewashed stone topped by a low closed pale blue tin well-house with a gable roof, a small shut door in the well-house and a wooden winch crank sticking out of its side",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Replaces the boat on trestles (about 4:1, too long for 96x96). | QA 2026-10-14: The grey backdrop is trapped between the two posts under the roof. It shows as an opaque lavender-grey panel of about 690 px. An open roof on posts always close | QA2: Round 1 trapped backdrop is gone and the cut is clean, but a second blue door is drawn low in the whitewashed stone shaft, so it reads as a"
+ },
+ "bessarabia-board-1": {
+  "subject": "a billboard on two grey steel posts, its panel twice as wide as tall in a thin dark frame, with a poster picture of dark purple grapes and a glass of red wine against green vineyard rows",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Picture-only poster with no bottle, so no label text. No ref for boards."
+ },
+ "bessarabia-car-1": {
+  "subject": "a pale beige 1980s Bessarabian boxy three-box saloon car with a flat boot lid, wide tail lights split into red and bright amber segments, a chrome bumper and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "kyiv-car-2",
+  "skip": false,
+  "note": "Ref: clean boxy white Lada from behind. Beige sets it apart from the white van. | QA 2026-10-14: Painted ground shadow: a dark fill between the wheels runs down to the bottom edge, and grey wedges spread out past both rear wheels. Also, the tail lights have | QA2: Round 1 shadow persists: a flat slate-grey painted fill runs between the wheels down to the bottom edge, plus a 3 px strip under both tyres."
+ },
+ "bessarabia-car-2": {
+  "subject": "a 1980s GAZ-53 truck with a pale blue cab and a grey-brown wooden drop-side bed loaded with wooden crates of dark purple grapes, twin rear wheels and small round rear lamps",
+  "tone": "other",
+  "person": false,
+  "ref": "azov-car-1",
+  "skip": false,
+  "note": "Ref: clean GAZ-53-type flatbed from behind; the text recolours the cab blue."
+ },
+ "bessarabia-car-3": {
+  "subject": "a small orange ZAZ-968M Zaporozhets two-door saloon of the 1980s with a rounded body, a louvred rear engine lid, small round-cornered tail lights, a thin chrome bumper and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Replaces the tractor, which is taller than wide from behind. No ZAZ ref."
+ },
+ "bessarabia-oncoming-1": {
+  "subject": "a dark green GAZ-24 Volga sedan of the 1970s with one round headlight on each side of a wide chrome grille of thin vertical bars, a chrome bumper with two upright overriders and no emblem",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: polissia-oncoming-2 has a V-shaped emblem in the grille centre (rule 10)."
+ },
+ "bessarabia-oncoming-2": {
+  "subject": "a white 2010s low-roof panel van with a short sloping bonnet, a plain black grille without an emblem, a black plastic bumper, a wide windscreen and large side mirrors",
+  "tone": "pale",
+  "person": false,
+  "ref": "azov-oncoming-2",
+  "skip": false,
+  "note": "Ref: clean white Transit-type van. Low roof keeps it in the 128x96 shape. | QA 2026-10-14: The clean step erased the pure-white body, because the roof had no outline. The windscreen, grille, lamps, bumper and mirrors are left floating, with a stray pi"
+ },
+ "bessarabia-apartment-1": {
+  "subject": "a nine-storey 1980s Izmail apartment block of white concrete panels, one entrance section wide with six windows on every floor, two vertical rows of glazed loggias faced in pale blue panels and a flat roof, about one and a half times taller than wide",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Izmail blocks top out at 9 storeys (OSM). No ref for apartments. | QA 2026-10-14: The sky flag misfired on the white parapet and lift room. But the picture has 12 storeys and a slender 2.4:1 tower shape, not a 9-storey block 1.5x taller than"
+ },
+ "bessarabia-tower-1": {
+  "subject": "a slender fourteen-storey 1980s Bessarabian apartment tower of sand-yellow brick, one entrance section wide, with vertical rows of glazed loggias, a flat roof and a small lift-machine room on top, about twice as tall as wide",
+  "tone": "other",
+  "person": false,
+  "ref": "kyiv-tower-1",
+  "skip": false,
+  "note": "OSM: 10-14 storey blocks in Bilhorod-Dnistrovskyi and Serhiivka. Ref: clean slender point tower."
+ },
+ "bukovyna-house-1": {
+  "subject": "a compact single-storey 1960s Bukovynian village house with sky-blue painted plastered walls, white window frames, a carved wooden porch on slender posts and a tall hipped silver tin roof with small ridge finials",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Keeps the old idea. The silver tin roof is a main surface, so pale. No clean tin-roof village house on the sheet (kyiv-house-2 has scribbled signs)."
+ },
+ "bukovyna-house-2": {
+  "subject": "a 19th-century Bukovynian village cottage of whitewashed clay with a tall steep hipped roof of golden straw thatch, small four-pane windows with blue frames and a reddish-brown clay band along the base",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: zakarpattia-house-2 belongs to the neighbouring region and would be copied. Pale for the white walls."
+ },
+ "bukovyna-house-3": {
+  "subject": "a single-storey 1900s Bukovynian town house of the Austro-Hungarian era with dusty-rose stucco walls, a tall white-framed window on each side of a central door under a curved gable, and a red clay tile hipped roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "The old prompt copied house-1, so this is now a Habsburg-era small-town house for variety. No ref: the closest, slobozhanshchyna-house-2, is red brick and would pull that material in."
+ },
+ "bukovyna-house-4": {
+  "subject": "a 1920s Bukovynian Hutsul log house with walls of honey-brown squared logs, small windows in carved white frames, a front gallery on carved wooden posts and a steep hipped roof of grey wooden shingles",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "The old prompt copied house-2, so this is now the Hutsul house of highland Bukovyna for variety. zakarpattia-house-1 not used: it has a woodpile beside it."
+ },
+ "bukovyna-shop-1": {
+  "subject": "a compact two-storey 1900s Chernivtsi Viennese Art Nouveau building, three windows wide, of ochre stucco with white floral mouldings and a curved central gable, a ground-floor cafe with tall arched windows, a glazed door and a blank signboard",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Shops never get a ref. Square frame, so two storeys, three bays wide, plus a gable."
+ },
+ "bukovyna-shop-2": {
+  "subject": "a compact two-storey 1990s Bukovynian village house of white plaster with blue window frames and a silver tin hipped roof, a grocery shop on the ground floor with a wide glass window, a metal door and a blank signboard",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "The old village shop is now two storeys, per rule 2. White walls and a silver roof, so pale."
+ },
+ "bukovyna-shop-3": {
+  "subject": "a two-storey 1900s Chernivtsi Art Nouveau building of sage-green stucco with white relief garlands, a tall dark grey mansard roof with two dormer windows, and a ground-floor bakery with a dark wooden shopfront and a blank signboard",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "The old prompt copied shop-1. A green facade, a mansard roof and a bakery set it apart from the ochre cafe."
+ },
+ "bukovyna-farm-1": {
+  "subject": "a long low 1950s Bukovynian village barn of weathered brown vertical planks with wide plank cart doors in the middle and a tall hipped roof of shiny silver tin, about one and a half times wider than tall",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Silver tin roof (pale) so it differs from the thatched Podillia barn next door. polissia-farm-2 not used: it has hay bales beside it."
+ },
+ "bukovyna-terrace-1": {
+  "subject": "one narrow three-storey 1900s Chernivtsi townhouse from a terraced row, three windows wide, with flat sides where it joins its neighbours, a cornflower-blue stucco front with white Art Nouveau mouldings and a tall arched wooden door",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Three storeys by three bays fits 128x160. No clean stucco terrace ref: slobozhanshchyna-terrace-1 is red brick."
+ },
+ "bukovyna-tree-1": {
+  "subject": "old Bukovynian orchard apple tree with a short crooked grey-brown trunk and a dense rounded crown of green leaves dotted with ripe red apples, a little taller than wide",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No leading article, because the template starts with 'A single isolated'. No apple tree on the sheet, and donbas-tree-1 is a leafless blossoming apricot that would be copied."
+ },
+ "bukovyna-tree-2": {
+  "subject": "tall Bukovynian European beech with one smooth silver-grey trunk and a dense egg-shaped crown of fresh bright green leaves, clearly taller than wide",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Bukovyna is named after the beech. zakarpattia-tree-2 is an autumn beech with a brown trunk, so no ref."
+ },
+ "bukovyna-bush-1": {
+  "subject": "low wide dome-shaped Bukovynian elderflower bush, twice as wide as tall, a dense mound of dark green leaves of paired pointed leaflets reaching right down to its base, dotted with many big flat saucer-shaped heads of tiny creamy-white flowers",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Elder, so it differs from the Podillia kalyna next door. Pale for the creamy-white flower heads. No elder in the catalogue. | QA 2026-10-14: Not an elder: large simple glossy leaves and single white blossoms instead of pinnate leaves and flat flower heads, and a ball on a short trunk rather than a lo | QA2: Still a small tree, not a low shrub: one bare trunk with splayed roots under a round crown, taller than wide (82x92). The leaves and flat cr"
+ },
+ "bukovyna-street-1": {
+  "subject": "a middle-aged Bukovynian Hutsul man in a white shirt with red embroidery, a tan fur-trimmed sheepskin keptar vest, a wide brass-studded leather belt, red wool trousers, brown leather moccasins and a black felt hat with a feather",
+  "tone": "pale",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "The white shirt is a main surface, so pale. polissia-street-2 not used (scythe). zakarpattia-street-1 has a sky backdrop."
+ },
+ "bukovyna-street-2": {
+  "subject": "a Chernivtsi music student, a woman in her twenties with long dark hair, in a knee-length camel-brown wool coat, a mustard-yellow knitted scarf, dark blue jeans and black ankle boots, carrying a black violin case by its handle",
+  "tone": "other",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "slobozhanshchyna-street-1 not used: a boy with headphones and childlike proportions."
+ },
+ "bukovyna-street-3": {
+  "subject": "a squat Bukovynian village well house: a fully boarded sky-blue painted wooden box with a small hinged door and red and yellow carved flowers and birds, a small gabled red-painted tin roof resting right on the box with tin bird ornaments on its ridge, and a crank winch handle at the side",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Replaces the tall thin lamp post, which could not fill a 96x96 frame. Roadside wells painted red, blue and yellow, with tin birds on the roof, are a documented Bukovyna tradition. | QA 2026-10-14: White generator backdrop left in the three open gaps between the posts under the roof."
+ },
+ "bukovyna-board-1": {
+  "subject": "a wide billboard on two short grey steel posts carrying a sky-blue poster picture of three ripe red apples on a leafy green branch",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Orchard apples as a picture-only poster. Short posts keep it near 1.5:1."
+ },
+ "bukovyna-car-1": {
+  "subject": "a pale blue 2010s compact five-door hatchback with a rounded body, tall vertical tail lights at the corners and a plain wide tailgate without badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Dacia suits a region on the Romanian border. zakarpattia-car-1 not used: VW badge and a scribbled plate. | QA 2026-10-14: Painted lilac-grey ground shadow fills the space under the car between and below the wheels; faint emblem ring on the tailgate. | QA2: Not fixed: the same flat lilac-grey (#5a5560) ground shadow still fills the space under the car, between and below the wheels, down to the b"
+ },
+ "bukovyna-car-2": {
+  "subject": "a yellow Bogdan A092 marshrutka, a city minibus of the 2000s with a boxy body, a big flat rear window, small tail lights low at the corners, a black rear bumper and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Keeps the old marshrutka idea. The tall body (about 0.8:1) fills less of the frame. kyiv-car-1 not used: it shows a route number."
+ },
+ "bukovyna-car-3": {
+  "subject": "a dusty, sun-faded sky-blue VAZ-2101 Zhiguli sedan of the 1970s, a small boxy saloon with slim chrome bumpers, small vertical tail lights at the rear corners, a flat boot lid and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "kyiv-car-2",
+  "skip": false,
+  "note": "Ref kyiv-car-2: clean boxy Soviet sedan from behind. Sky-blue so it differs from the cherry-red Podillia Lada next door."
+ },
+ "bukovyna-oncoming-1": {
+  "subject": "a dark blue metallic early-2010s family saloon with a flat squared-off nose, where a wide grille of four thin horizontal chrome bars joins two slim flat rectangular headlights in one straight line, a smooth flat bonnet, one wide low black air intake across the bumper and no emblem",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "The ref is a clean silver modern saloon, front view, with a blank plate. | QA 2026-10-14: Near-copy of the ref design already used twice (slobozhanshchyna-oncoming-1, crimea-south-oncoming-2): swept headlights and a winged grille with a central emble | QA2: Still a luxury-saloon face close to crimea-south-oncoming-2: a separate grille with a centre bar, swept curved headlights with round lamps a"
+ },
+ "bukovyna-oncoming-2": {
+  "subject": "a faded light-green 1980s Bukovyna flatbed lorry with a rounded bonnet, a vertically fluted grille, round headlamps in wide flared front wings with small indicators on top of the wings, a flat split windscreen over a dark shaded cab interior, small dark side mirrors on short straight arms and no emblem",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Replaces the old tractor. A tractor with a cab, seen from the front, is about 0.7:1 and would fill half the 128x96 frame; the truck is about 1.1:1. tavria-steppe-oncoming-1 not used: odd barn-like cargo. | QA 2026-10-14: White backdrop shows through the cab's rear window as two flat white squares in the windscreen; indicators drawn under the headlamps instead of above. | QA2: Round 1 problems fixed (dark windscreen, indicators on top of the wings), but the side mirrors hang on looping arms that trap the white back"
+ },
+ "bukovyna-shop-4": {
+  "subject": "a two-storey 2000s Bukovynian Hutsul-style cafe with a ground floor of rough grey fieldstone, a glazed cafe front and a blank signboard, a timber upper floor with a carved wooden balcony and a steep dark green metal roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "The old prompt copied shop-2, so this is now a roadside cafe in the foothills for variety."
+ },
+ "halychyna-volyn-house-1": {
+  "subject": "a traditional Halychyna village cottage with whitewashed clay walls, a tall hipped golden straw-thatched roof whose deep front eaves rest on carved wooden posts, small windows with sky-blue frames and a plank door",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: zakarpattia-house-2 is the next region's khata and has no gallery on posts. White walls, so pale."
+ },
+ "halychyna-volyn-house-2": {
+  "subject": "a compact single-storey 1970s Volyn village house of white brick with decorative red brick corners and window surrounds, blue-painted window frames and a steep red-painted tin hip roof",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "White sand-lime brick is typical of Volyn. The roof is red, not grey, so it stays visible on the mid-grey backdrop. The fence from the old prompt is gone. The only brick-house ref is red brick, so no ref."
+ },
+ "halychyna-volyn-house-3": {
+  "subject": "a big two-storey 2000s Halychyna village house of orange-red brick with a dark brown metal-tile hip roof, arched white-framed windows and a white-balustraded balcony on two columns over the front door",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "The typical 1990s-2000s house of Halychyna villages, built with money earned abroad. Two storeys plus a hip roof is about 1.2:1 against a 1.25 frame. No catalogue picture matches."
+ },
+ "halychyna-volyn-house-4": {
+  "subject": "a single-storey 1950s Volyn wooden village house clad in horizontal boards painted bright blue, with white carved window frames, a tall grey corrugated slate hip roof and a small gabled wooden entrance porch",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Replaces the duplicate of house-1. polissia-house-2 is bare dark logs and would erase the blue cladding, so no ref."
+ },
+ "halychyna-volyn-shop-1": {
+  "subject": "a two-storey 1900s Lviv Art Nouveau building of sage-green stucco with tall stucco-framed upper windows and a coffee house on the ground floor behind a brown wooden shopfront with big windows, a cream-and-brown striped awning and a blank signboard",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Keeps the Lviv coffee house idea. The outdoor tables are dropped (ground objects). Two storeys fit the square frame. Refs are not allowed for shops."
+ },
+ "halychyna-volyn-shop-2": {
+  "subject": "a two-storey 1970s Volyn village grocery shop building of yellow-plastered brick with a green-painted tin roof, a wide glass shopfront and door under a long blank signboard on the ground floor and small windows above",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Keeps the old idea of a village shop with a tin roof and a blank sign. Raised to two storeys for the 1:1 frame. Says grocery shop, not general store, to avoid a Wild West look."
+ },
+ "halychyna-volyn-shop-3": {
+  "subject": "a two-storey 1600s Halychyna Renaissance townhouse of cream stucco with a ground-floor arcade of three round honey-coloured stone arches sheltering a small shop's glazed doors, three windows above and a steep red clay-tile roof",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Replaces the duplicate Lviv cafe with an arcaded square house like those in Zhovkva. The word market is avoided so stalls are not drawn. Cream walls, so tone is pale."
+ },
+ "halychyna-volyn-farm-1": {
+  "subject": "a long traditional Halychyna wooden barn with low walls of weathered brown vertical planks under a tall steep rust-red tin hip roof, and wide double plank doors in the middle, about one and a half times wider than tall",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "The old prompt listed scenery. A long barn is about 1.6:1 against a 1.5 frame. polissia-farm-2 has hay bales and a straw roof, so no ref."
+ },
+ "halychyna-volyn-apartment-1": {
+  "subject": "a tall narrow five-storey 1900s Lviv Austro-Hungarian tenement house, four windows wide, of dusty pink stucco with white stucco window frames, small black wrought-iron balconies, a heavy cornice and a grey tin mansard roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Raised from four to five storeys and set four windows wide: about 0.57 against a 0.67 frame. The colour is pink, not the old grey stucco, for a cleaner cut-out."
+ },
+ "halychyna-volyn-terrace-1": {
+  "subject": "a three-storey 1600s Lviv Renaissance townhouse, four windows wide, with straight flat sides, a deep ochre stucco front, carved grey sandstone window frames, an arched stone portal and a steep red tile roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Four windows wide instead of the classic three, to fill the 0.8 frame. Neighbours are not mentioned so they are not drawn. Every terrace ref has lettering or neighbour fragments."
+ },
+ "halychyna-volyn-tree-1": {
+  "subject": "old Scots pine with one tall straight orange-brown trunk, bare in its lower half, and a broad flat-topped irregular crown of dark blue-green needle clumps, about one and a half times taller than wide",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No leading article, because the template starts with 'A single isolated'. polissia-tree-1 is a pine but only about 0.4 wide and fills the 0.8 frame badly, so no ref."
+ },
+ "halychyna-volyn-tree-2": {
+  "subject": "big old small-leaved linden with one stout grey-brown trunk and a dense broad rounded crown of fresh green heart-shaped leaves, slightly taller than wide",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: park-tree-2 is a linden but olive-gold and dark, which would replace the fresh green."
+ },
+ "halychyna-volyn-bush-1": {
+  "subject": "low rounded kalyna viburnum shrub, wider than tall, with dense three-lobed green leaves and drooping clusters of glossy bright red berries",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Kalyna grows wild in Volyn and is planted in village yards. Says viburnum, not guelder rose, so roses are not drawn. No viburnum in the catalogue. No leading article."
+ },
+ "halychyna-volyn-street-1": {
+  "subject": "a Lviv coffee-house barista, a man in his twenties in a white shirt with rolled-up sleeves, a black waistcoat, a long dark brown apron, black trousers and black shoes, holding a small tray with two coffee cups",
+  "tone": "pale",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "Keeps the barista idea. The age is stated as twenties so the figure reads as an adult. kyiv-street-1 is a customer with a tote bag and would be copied, so no ref."
+ },
+ "halychyna-volyn-street-2": {
+  "subject": "a 14th-century Volhynian knight, a bearded man in a grey chainmail hauberk under a plain knee-length red surcoat, an open-faced steel helmet, a brown leather belt and boots, holding a plain red shield",
+  "tone": "other",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "Keeps the knight idea (Lutsk castle festivals). Medieval costume, not a modern uniform. No weapon. The shield is plain, so no heraldry or symbols."
+ },
+ "halychyna-volyn-street-3": {
+  "subject": "a Lviv street organ grinder, a grey-moustached man in a black bowler hat, a white shirt, a dark green waistcoat, brown trousers and black boots, cranking a small wooden barrel organ hung from a shoulder strap",
+  "tone": "pale",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "Keeps the organ grinder idea with the clothes spelled out. No person ref shows the same kind of figure."
+ },
+ "halychyna-volyn-board-1": {
+  "subject": "a wide billboard on two short grey steel posts, its poster in a thin dark grey frame, a picture of a steaming white coffee cup on a saucer and scattered roasted coffee beans, painted in warm browns and cream",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Keeps the Lviv coffee theme as a picture-only poster. Lviv is not named and the word advertising is left out, to avoid text. Short posts fit the 1.5 frame."
+ },
+ "halychyna-volyn-car-1": {
+  "subject": "a small boxy orange 1980s Lutsk-built LuAZ-969M Volyn off-road car with flat steel body panels, a grey canvas soft top, a flat tailgate, chunky off-road tyres and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Replaces the Lviv tram: a tram seen from behind is about 0.65:1 in a 1.33 frame and does not drive on open roads. The LuAZ is built in Lutsk, Volyn, and is about 0.9:1. No similar ref; the UAZ van would be copied."
+ },
+ "halychyna-volyn-car-2": {
+  "subject": "a dark blue metallic late-1990s mid-size family estate car with a long roof, silver roof rails, a wide smooth tailgate, red tail lights wrapping round the corners and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "The generic white hatchback becomes the used import typical of western Ukraine. About 1.16:1 from behind. Hatchback refs show logos or plate text. | QA 2026-10-14: VW roundel badge in the middle of the tailgate and a small model badge to its right, although the prompt says no badges. The brand name in the prompt pulls the"
+ },
+ "halychyna-volyn-car-3": {
+  "subject": "a yellow 2000s Bogdan A092 marshrutka minibus with a boxy body, a big flat back window, small tail lights at the lower corners, a black bumper, twin rear wheels and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Keeps the yellow marshrutka; the Bogdan is built in Lutsk. azov-car-3 has text on its plate and slobozhanshchyna-car-1 is a GAZelle with double doors, so no ref."
+ },
+ "halychyna-volyn-oncoming-1": {
+  "subject": "a dark blue 2010s family estate car with a narrow horizontal grille, rectangular headlights, a black lower bumper and round fog lights",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Keeps the silver modern sedan, now a named common model. Every silver-car ref shows a VW, BMW or other emblem. Silver, so tone is pale. | 2026-10-14: brand removed, dark blue, after three flagged outputs (3030)"
+ },
+ "halychyna-volyn-oncoming-2": {
+  "subject": "a white 1990s Halychyna panel van with a short sloping bonnet, a plain black slatted grille between rectangular headlights, a big windscreen, black bumpers and no badges",
+  "tone": "pale",
+  "person": false,
+  "ref": "azov-oncoming-2",
+  "skip": false,
+  "note": "Keeps the white delivery van as a T4, very common in western Ukraine, about 0.95:1 from the front. azov-oncoming-2 is a modern Transit with an emblem. All five vehicles differ in model, colour and era. | QA 2026-10-14: Leftover grey backdrop or shadow fills the space between the wheels under the bumper, and a faint VW logo sits in the centre of the grille. Round headlights, no | QA2: Badge and round lamps fixed, but the round 1 shadow persists: a mottled grey-blue painted fill sits between the wheels under the bumper down"
+ },
+ "podillia-house-1": {
+  "subject": "a traditional Podillia village cottage of whitewashed clay with painted red and green flower patterns around its small blue-framed windows and door, a dark ochre clay base band, and a tall hipped roof of golden straw thatch",
+  "tone": "pale",
+  "person": false,
+  "ref": "zakarpattia-house-2",
+  "skip": false,
+  "note": "ref: clean whitewashed thatched khata, same kind and shape, no lettering; pale for the white walls"
+ },
+ "podillia-house-2": {
+  "subject": "a large two-storey 2000s Podillia village house of yellow facing brick with white plastic windows, a small balcony with white balusters above the entrance porch, and a brown metal-tile hipped roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "no modern brick house in the catalogue; the typical new-build of Podillia villages; two storeys fit the 1.25 frame"
+ },
+ "podillia-house-3": {
+  "subject": "a single-storey early-1900s Vinnytsia town house of red brick with cream stucco window surrounds and cornice, a small central gable with a round attic window, a panelled wooden door and a grey tin hipped roof",
+  "tone": "other",
+  "person": false,
+  "ref": "slobozhanshchyna-house-2",
+  "skip": false,
+  "note": "ref: clean single-storey 1900s red-brick town house with a central gable, same kind and era (kyiv-house-2/3 rejected: plaques with pseudo-lettering)"
+ },
+ "podillia-house-4": {
+  "subject": "an old single-storey Podillia stone village house of rough sand-coloured limestone blocks with whitewashed window surrounds, green wooden shutters, a plank front door and a hipped tin roof painted rust red",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: azov-house-3 would add its vine pergola and repeat the Odesa limestone house next door. Pale for the sand-coloured stone."
+ },
+ "podillia-shop-1": {
+  "subject": "a two-storey early-1900s Vinnytsia shop building of red brick, three windows wide, with cream stucco pilasters and window frames, a ground-floor shop of tall wood-framed display windows and a glazed door under a blank signboard, and a grey tin roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Red brick so it differs from the ochre Chernivtsi cafe next door. No ref for shops."
+ },
+ "podillia-shop-2": {
+  "subject": "a two-storey 2000s Podillia cafe building: a honey-brown sandstone ground floor with big arched windows, a green awning and a blank signboard, an orange-rendered upper floor with a balcony, and a dark brown metal-tile roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "no ref for shops; local sandstone cladding; saturated colours so it cuts out on white"
+ },
+ "podillia-farm-1": {
+  "subject": "a long traditional Podillia threshing barn with low woven wattle walls on oak posts, wide plank double doors and a huge steep hipped roof of golden straw thatch, one and a half times wider than tall",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "polissia-farm-2 rejected: log walls and a hay-bale fragment; proportion matches the 1.5 frame"
+ },
+ "podillia-farm-2": {
+  "subject": "a 1960s Podillia collective-farm grain barn of red brick, about one and a half times wider than tall, with a row of small square windows, wide green plank double doors in the middle and a grey corrugated slate gable roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "no matching ref (the long farmhouse refs are 3:1 houses); the word Soviet is left out of the building to keep red stars away"
+ },
+ "podillia-terrace-1": {
+  "subject": "a narrow two-storey 18th-century Kamianets-Podilskyi old-town terraced house of thick stone walls in ochre-yellow plaster, with a round-arched wooden door, small deep-set windows, flat plain side walls and a steep red clay-tile roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "terrace refs are brick or timber, several with lettering; the steep roof makes it fit the 0.8 frame"
+ },
+ "podillia-apartment-1": {
+  "subject": "a tall narrow nine-storey 1980s Vinnytsia apartment block of white silicate brick, six windows wide, with two vertical rows of glazed balconies, a small concrete entrance canopy and a flat roof",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "no ref for apartments; a single-section 9-storey block matches the 0.67 frame"
+ },
+ "podillia-tree-1": {
+  "subject": "big old common walnut tree with a short thick pale grey trunk forking low into spreading limbs and a broad dense rounded crown of light green leaves, slightly taller than wide",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "walnut lines Podillia roads; no walnut in the catalogue (the oak ref would turn it into an oak); no leading article because the template starts with 'A single isolated'"
+ },
+ "podillia-tree-2": {
+  "subject": "old pear tree with a tall straight dark grey-brown trunk and a tall oval crown of glossy dark green leaves hung with many small yellow-green pears, clearly taller than wide",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Pear, so it differs from the Bukovyna apple tree next door and from the round walnut crown of tree-1. No leading article."
+ },
+ "podillia-bush-1": {
+  "subject": "low rounded viburnum (kalyna) shrub, wider than tall, with dense bright green maple-like leaves and many hanging clusters of glossy scarlet berries",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "no viburnum ref; the name guelder-rose is avoided so the model does not draw roses; no leading article"
+ },
+ "podillia-street-1": {
+  "subject": "a Podillia village woman in a white linen shirt with dense black-and-red embroidered sleeves, a black wool wrap skirt, a red woven belt, a red flowered headscarf and black boots, holding a wicker basket of red apples",
+  "tone": "pale",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: the folk-dress ref would replace the Podillia costume. Pale for the white shirt."
+ },
+ "podillia-street-2": {
+  "subject": "a Podillia village well-house wider than tall: a waist-high closed box of dark brown oak planks over the well with a small plank hatch, a low gabled roof of grey wooden shingles sitting right on the box, a big iron windlass crank on its side and a zinc bucket on its ledge",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Brown oak and shingles so it differs from the painted Bukovyna well next door. No well in the catalogue. | QA 2026-10-14: The white backdrop stayed as a box in the open gap between the roof posts, around the windlass and bucket. Street props keep enclosed pockets, so any open-post | QA2: Round 1 trapped backdrop is gone and the drawing is clean, but the box came out tall with a full-height plank door, so it reads as a village"
+ },
+ "podillia-street-3": {
+  "subject": "a small 1970s Podillia village bus shelter of white-painted concrete with a flat sloping roof, an open front and a wooden bench inside, its back wall covered in a ceramic mosaic of a white stork with black wing tips and a red beak on sky blue",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "keeps the old bus-stop idea; no shelter ref; the mosaic is a picture only; pale for white concrete | QA 2026-10-14: A painted grey shadow slab under the bench spills past the foot of the left wall. The shelter is drawn in three-quarter perspective, and the mosaic bird reads a"
+ },
+ "podillia-board-1": {
+  "subject": "a wide rectangular billboard with a dark steel border on two short grey posts, showing a poster picture of an old stone fortress with round towers and pointed red roofs on a rocky cliff above a green river canyon",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "no ref for boards; the poster shows the Kamianets-Podilskyi fortress as a picture; short posts fit the 1.5 frame"
+ },
+ "podillia-car-1": {
+  "subject": "a 1980s Soviet VAZ-2107 Zhiguli four-door sedan in dark cherry red with a boxy body, a flat trunk lid, wide red-and-amber tail lights, chrome bumpers and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "kyiv-car-2",
+  "skip": false,
+  "note": "ref: clean boxy 1980s Soviet sedan seen straight from behind, blank plate, same kind"
+ },
+ "podillia-car-2": {
+  "subject": "a dark blue early-2000s Volkswagen Passat B5 station wagon with a long roof and roof rails, a sloping tailgate with a wide rear window and no emblem, and slim red tail lights",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "no estate car seen from behind in the catalogue (azov-car-2 is angled); the common imported family car in Podillia"
+ },
+ "podillia-car-3": {
+  "subject": "a Soviet GAZ-53 farm truck with a rounded pale blue cab, a brown wooden drop-side bed heaped with pale sugar beet roots, small red tail lights and twin rear wheels",
+  "tone": "pale",
+  "person": false,
+  "ref": "azov-car-1",
+  "skip": false,
+  "note": "Ref azov-car-1: clean Soviet drop-side truck straight from behind. Pale because the pale sugar-beet heap forms the top edge."
+ },
+ "podillia-oncoming-1": {
+  "subject": "a small 1970s ZAZ-968 Zaporozhets two-door sedan in mustard yellow with a smooth rounded hood and no grille, a thin chrome strip between two round headlights, a slim chrome bumper and no emblem",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "no small Soviet car front in the catalogue, and a Volga ref would replace it; rear-engined, so no grille"
+ },
+ "podillia-oncoming-2": {
+  "subject": "a white 2010s Mercedes-Benz Sprinter passenger minibus with a short sloping hood, large swept-back headlights, a plain dark grille without emblem, a black bumper and a big windscreen",
+  "tone": "pale",
+  "person": false,
+  "ref": "azov-oncoming-2",
+  "skip": false,
+  "note": "ref: clean modern white van front, same kind and era; the minibus type on Podillia routes; pale for the white body"
+ },
+ "kerch-bush-1": {
+  "subject": "low rounded Crimean tamarisk shrub in full bloom, wider than tall, a soft mass of feathery grey-green foliage almost hidden under dense fluffy plumes of tiny bright pink flowers, with only short thin reddish-brown stems showing at its base",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Tamarisk is the typical shrub of the Kerch coast and salt lakes. No tamarisk among finished bushes; a lilac or juniper ref would be copied. | QA 2026-10-14: Reads as a small tree, not a low shrub: a bare single trunk (about a quarter of the height) under a lollipop crown. The foliage came out saturated teal and the | QA2: Now a shrub from the base with grey-green foliage, but the pink is still sparse specks on the stem tips, not dense plumes. The stiff, straig"
+ },
+ "kerch-street-1": {
+  "subject": "a sun-tanned middle-aged Kerch fisherman with a short grey beard, in a long-sleeved white shirt with thin horizontal navy-blue stripes, a navy knitted cap, dark brown canvas trousers and black rubber boots, a rope coil on one shoulder",
+  "tone": "pale",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "Civilian fisherman, not a navy sailor (rule 4). Pale because the white striped shirt is the main surface. No ref: azov-street-1 (brown jacket, hat, rods) would be copied and repeat the Azov figure."
+ },
+ "kerch-street-2": {
+  "subject": "an elderly Kerch woman in a red flowered headscarf tied under the chin, a plain navy-blue cotton dress, a brown knitted cardigan and black shoes, holding up a long string of small golden-brown dried fish",
+  "tone": "other",
+  "person": true,
+  "ref": "",
+  "skip": false,
+  "note": "Dried fish on strings is a real Kerch/Azov market sight. No matching ref: zakarpattia-street-2 is folk costume, donbas-street-2 has a lettered sign."
+ },
+ "kerch-street-3": {
+  "subject": "a small 1970s Crimean modernist bus-stop shelter of grey concrete, about as tall as wide, with a flat overhanging roof slab, a bench and a back wall covered in a bright blue mosaic of stylised waves and leaping dolphins",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Mosaic is picture-only. 'Soviet' left out so no stars get added. Mid-grey concrete keeps the cut-out clean on white. No bus-stop ref exists."
+ },
+ "kerch-board-1": {
+  "subject": "a large billboard, its board about three times wider than tall, raised on two grey steel posts as tall as the board, showing a poster picture of a white car ferry on a deep-blue sea under an orange sunset sky",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Kerch Strait ferry picture. Posts as tall as the board give the 3:2 frame shape. 'Roadside' dropped so no road gets drawn. No ref for boards."
+ },
+ "kerch-car-1": {
+  "subject": "a 1970s Soviet GAZ-53 flatbed truck with a pale blue cab, a wooden drop-side bed with a faded green plank tailgate, loaded with sawn yellow limestone blocks, dual rear wheels and black mudflaps",
+  "tone": "other",
+  "person": false,
+  "ref": "azov-car-1",
+  "skip": false,
+  "note": "Ref azov-car-1 is the same GAZ-53-type flatbed in a clean straight rear view. The limestone load (Kerch quarries) and the colours set it apart from the Azov truck."
+ },
+ "kerch-car-2": {
+  "subject": "a faded cherry-red 1990s Lada 2107 sedan with a boxy three-box body, a chrome rear bumper, wide red-and-amber tail lights, a roof rack piled with holiday luggage and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "kyiv-car-2",
+  "skip": false,
+  "note": "Ref kyiv-car-2 is the same boxy Lada in a straight rear view with a blank plate. The other Ladas (polissia/donbas/tavria) have lettered plates. Roof-rack luggage means a holiday trip to Crimea."
+ },
+ "kerch-car-3": {
+  "subject": "a yellow 2000s Bogdan A092 marshrutka, a boxy minibus with a flat rear, a wide rear window, vertical red tail lights at the corners, a black rear bumper and no badges",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Marshrutka refs rejected: kyiv-car-1 shows '42', polissia-car-3 has a sky fragment, azov-car-3 has a lettered plate. slobozhanshchyna-car-1 is a GAZelle and would be copied. 'Ukrainian' left out because it gave 'UA' marks before."
+ },
+ "kerch-oncoming-1": {
+  "subject": "a silver 2015-era five-door compact hatchback with a plain grille and no emblem, slim swept-back headlights, a black lower air intake and small round fog lights",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Both silver-hatchback refs (kyiv-oncoming-2, slobozhanshchyna-oncoming-1) show a grille emblem, so no ref."
+ },
+ "kerch-oncoming-2": {
+  "subject": "a white 2000s Ford Transit panel van with a short sloping bonnet, a tall flat windscreen, swept-back headlights, a plain dark grille with no emblem and a black plastic bumper",
+  "tone": "pale",
+  "person": false,
+  "ref": "azov-oncoming-2",
+  "skip": false,
+  "note": "Ref azov-oncoming-2 is the same white Transit-type van in a clean front view (the grille mark is very faint). Model and colour differ from the other Kerch vehicles."
+ },
+ "donbas-terrace-1": {
+  "subject": "one narrow two-storey 1900s Donbas terraced house of red brick, with arched windows trimmed in yellow brick, a stepped brick cornice, a dark green door, a grey tin roof and flat side walls where it joins its neighbours",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "No ref: slobozhanshchyna-terrace-1 is the next region's red-brick terrace and would be copied. \"Mining\" left out so no headframe appears."
+ },
+ "slobozhanshchyna-apartment-2": {
+  "subject": "a tall narrow six-storey 1900s Kharkiv tenement house of red brick with six rows of four windows in white stone frames, small wrought-iron balconies, a white cornice, a tall arched entrance and a dark grey tin roof",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Raised from 4 to 6 storeys, 4 windows wide, to fill the tall 128x192 frame. Contrasts with constructivist apartment-1. No ref for apartments. | QA 2026-10-14: Only three storeys plus an attic, and three windows wide, where the prompt asks for six storeys and four windows. Each floor is about twice as tall as the floor"
+ },
+ "lm-Q172233": {
+  "subject": "the Mykolaiv T-34-85 tank monument in side profile: an unmarked olive-green T-34-85 tank on long caterpillar tracks over five large road wheels, with a rounded cast turret and a single long 85 mm gun angled upward, on a wedge-shaped dark-grey granite plinth",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Mykolaiv liberators' monument (OSM node 7040447344, Commons photos): gun raised, black granite wedge plinth. FRAME: a side-profile tank is about 2:1, so in 128x256 it fills about a quarter of the height; a 256x128 frame would suit. | QA 2026-10-14: Wrong vehicle: a wheeled armoured car on two big wheels with no tracks, carrying two guns that point opposite ways. A letter P and a box mark are painted on the"
+ },
+ "lm-Q150609": {
+  "subject": "the Vuhlehirsk MiG-21 monument in side profile: a plain unmarked silver MiG-21 jet with a round nose air intake and a green shock cone, delta wings and a tall swept fin, climbing nose-up on two long slanted white concrete beams",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Vuhlehirsk (OSM node 7056876429, Commons photo Wuhlehirsk-05.jpg): jet climbing on two slanted concrete beams. FRAME: the group is about 1.4:1, so in 128x256 it fills about a third of the height; a square or wide frame would suit."
+ },
+ "lm-Q203808": {
+  "subject": "the Melitopol Bohdan Khmelnytsky monument, front view: a white-painted standing hetman in a long coat and cloak raising a mace high in his right hand, atop a tall tapering cylindrical dark blue-grey pedestal on a square white base",
+  "tone": "pale",
+  "person": false,
+  "ref": "",
+  "skip": false,
+  "note": "Checked on the Commons photo: 1954 concrete standing figure, mace raised, tall tapering round pedestal. Fits the tall frame well. Pedestal kept dark so it stands out on the mid-grey backdrop. | QA 2026-10-14: A painted dark cast shadow sticks out at the lower right of the white base, and the pedestal is a square pillar with a square cap instead of a round one. The st"
+ },
+ "lm-Q111017791": {
+  "subject": "",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": true,
+  "note": "A 2022 battle, not a structure: skipped per rule 7."
+ },
+ "kharkiv-street-6": {
+  "subject": "a black-painted cast-iron city litter bin shaped like a classic round urn on a short fluted pedestal, open at the top, as in the parks of Kharkiv",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false
+ },
+ "kharkiv-street-7": {
+  "subject": "a modern city litter bin of dark green painted steel sheet with a rounded hood lid and a front opening, standing on two short feet",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false
+ },
+ "kharkiv-street-8": {
+  "subject": "a neat low round raised flower bed edged with a grey granite curb, densely planted with red and yellow tulips among green leaves, seen from the side at eye level",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false
+ },
+ "kharkiv-street-9": {
+  "subject": "a long low rectangular grey concrete street planter box, filled to the brim with blooming red and pink petunias and green leaves, seen from the side at eye level",
+  "tone": "other",
+  "person": false,
+  "ref": "",
+  "skip": false
+ },
+ "kharkiv-street-1": {
+  "skip": true,
+  "note": "a copy of an existing picture (plan.json copy_of), never generated"
+ },
+ "kharkiv-street-2": {
+  "skip": true,
+  "note": "a copy of an existing picture (plan.json copy_of), never generated"
+ },
+ "kharkiv-street-3": {
+  "skip": true,
+  "note": "a copy of an existing picture (plan.json copy_of), never generated"
+ },
+ "kharkiv-street-4": {
+  "skip": true,
+  "note": "a copy of an existing picture (plan.json copy_of), never generated"
+ },
+ "kharkiv-street-5": {
+  "skip": true,
+  "note": "a copy of an existing picture (plan.json copy_of), never generated"
+ }
+}

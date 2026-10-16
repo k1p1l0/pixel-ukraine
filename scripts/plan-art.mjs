@@ -14,7 +14,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { args, multi, readJSON, writeJSON } from './lib.mjs';
-import { STYLE, PRICE, RECIPE, FACADES, SPRITES, LANDMARK, LEVELS } from './kit.mjs';
+import { STYLE, PRICE, RECIPE, FACADES, SPRITES, LANDMARK, LEVELS, GLOBAL } from './kit.mjs';
 import { rolesFor } from '../templates/layout.js';
 
 const A = args(), TRIP = A.trip, detail = A.detail || 'moderate';
@@ -24,6 +24,13 @@ const LMS = readJSON(join(TRIP, 'data/landmarks.json'), []);
 let themes = multi('--theme').map(t => { const [id, km, ...d] = t.split('|'); return { id: id.trim().replace(/[^a-z0-9-]/gi, '').toLowerCase(), from: Math.round(+km * 1000) || 0, name: d.join('|').trim() }; });
 if (!themes.length) { console.error('give at least one --theme "id|0|description of the region" (look at the places and land mix the bake printed)'); process.exit(1); }
 themes.sort((a, b) => a.from - b.from); themes[0].from = 0;
+// per-theme overrides (Ukraine branch): --level "id=detailed,id=sparse", --counts "id=apartment:6,shop:3" (exact facade counts instead of the
+// frontage-based allocation), --sprites "id=tree:3,bush:1" (exact sprite counts; "id=" gives a theme no sprites of its own, so it borrows its neighbours')
+const perTheme = (flag, parse) => { const o = {}; for (const s of multi(flag)) for (const part of s.split(',')) { const [id, ...v] = part.split('='); if (!id.trim()) continue; const key = id.trim(); if (v.length) o[key] = parse(v.join('=').trim(), o[key]); } return o; };
+const levelOf = perTheme('--level', v => v);
+const parseCounts = (v, prev) => { const o = prev || {}; for (const kv of v.split(/[,;]/)) { const [r, n] = kv.split(':'); if (r.trim()) o[r.trim()] = +n || 0; } return o; };
+const countsOf = {}; for (const s of multi('--counts')) { const [id, ...v] = s.split('='); countsOf[id.trim()] = parseCounts(v.join('=')); }
+const spritesOf = {}; for (const s of multi('--sprites')) { const [id, ...v] = s.split('='); spritesOf[id.trim()] = parseCounts(v.join('=')); }
 const subjects = {}; for (const s of multi('--subject')) { const [k, ...v] = s.split('='); subjects[k.trim()] = v.join('=').split('|').map(x => x.trim()).filter(Boolean); }
 const subj = (theme, role, i, fallback) => { const l = subjects[`${theme.id}:${role}`] || subjects[role]; return (l && l[i % l.length]) || fallback; };
 const here = dirname(fileURLToPath(import.meta.url)), defPal = join(here, '../templates/palette.png'), palette = A.palette === 'none' ? null : A.palette || (existsSync(defPal) ? defPal : null);
@@ -50,10 +57,15 @@ const jobs = [];
 themes.forEach((t, ti) => {
   const next = themes[ti + 1]?.from ?? Infinity, ranked = roleShare(t, next);
   for (const r of ['house', 'terrace', 'shop']) if (ranked.length < 3 && !ranked.some(x => x[0] === r)) ranked.push([r, 0.01]);   // at least three kinds of building
-  allocate(ranked, L.facades.reduce((a, b) => a + b, 0), L.maxFacadeRoles).forEach(([role, count]) => { const F = FACADES[role];
+  const TL = LEVELS[levelOf[t.id]] || L, forced = countsOf[t.id];
+  (forced ? Object.entries(forced).filter(([r, n]) => FACADES[r] && n > 0) : allocate(ranked, TL.facades.reduce((a, b) => a + b, 0), TL.maxFacadeRoles)).forEach(([role, count]) => { const F = FACADES[role];
     for (let v = 0; v < count; v++) jobs.push(job(`${t.id}-${role}-${v + 1}`, { role, theme: t.id, kind: 'facade', width: F.w, height: F.h, hm: F.hm, prompt: RECIPE.facade(subj(t, role, v, F.subject.replace('{place}', t.name)) + (v && !(subjects[`${t.id}:${role}`] || subjects[role]) ? ', a different colour and design from the most common one' : '')) })); });
-  for (const [role, n] of Object.entries(L.sprites)) for (let v = 0; v < n; v++) { const S = SPRITES[role]; jobs.push(job(`${t.id}-${role}-${v + 1}`, { role, theme: t.id, kind: 'sprite', width: S.w, height: S.h, hm: S.hm, prompt: RECIPE.sprite(subj(t, role, v, S.subject.replace('{place}', t.name) + (v ? ', a different kind from the first' : ''))) })); }
+  for (const [role, n] of Object.entries(spritesOf[t.id] || TL.sprites)) for (let v = 0; v < n; v++) { if (!SPRITES[role]) continue; const S = SPRITES[role]; jobs.push(job(`${t.id}-${role}-${v + 1}`, { role, theme: t.id, kind: 'sprite', width: S.w, height: S.h, hm: S.hm, prompt: RECIPE.sprite(subj(t, role, v, S.subject.replace('{place}', t.name) + (v ? ', a different kind from the first' : ''))) })); }
 });
+// once per trip (Ukraine branch): cockpits and Mad Max sprites, theme '*'. Skip with --no-global.
+if (!A['no-global'] && detail !== 'sparse') for (const [role, G] of Object.entries(GLOBAL)) for (const [v, subject] of Object.entries(G.variants)) {
+  const own = subjects[`*:${role}-${v}`] || subject, hm = typeof G.hm === 'object' ? G.hm[v] : G.hm;
+  jobs.push(job(`${role}-${v}`, { role, theme: '*', kind: G.kind, width: G.w, height: G.h, hm, label: v, prompt: G.kind === 'cockpit' ? `${own}, pixel art game asset, 16-bit style, isolated on a plain white background, afternoon light` : RECIPE.sprite(own) })); }
 // landmarks: the best known near the road (Wikidata sitelinks), one picture each, placed at their real spot
 const nLm = A['no-landmarks'] ? 0 : A.landmarks != null ? +A.landmarks : L.landmarks, lmMap = {};
 const picked = []; for (const l of LMS) { if (picked.length >= nLm) break; if (Math.abs(l.side) >= 900 || l.links < 2 || (l.kind === 'bridge' && Math.abs(l.side) < 40)) continue;   // not the bridge you are driving over

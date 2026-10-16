@@ -40,11 +40,15 @@ function draw(j) {
     case 'bush': for (const [dx, rr, k] of [[-0.18, 0.26, 0.9], [0.18, 0.26, 1], [0, 0.32, 1.1]]) g.oval(w / 2 + dx * w, h * 0.6, rr * w, rr * h, shade([82, 128, 66], k)); break;
     case 'street': g.rect(10, h - 40, w - 20, 6, [110, 80, 56]); g.rect(10, h - 54, w - 20, 5, [110, 80, 56]); g.rect(14, h - 34, 4, 34, [50, 50, 54]); g.rect(w - 18, h - 34, 4, 34, [50, 50, 54]); break;
     case 'landmark': g.rect(w * 0.2, h * 0.35, w * 0.6, h * 0.65, [206, 196, 176]); g.tri(w * 0.15, w * 0.85, h * 0.36, w / 2, h * 0.1, shade([206, 196, 176], 0.8)); for (let x = w * 0.26; x < w * 0.74; x += 14) g.rect(x, h * 0.45, 6, h * 0.5, [232, 226, 212]); break;
+    case 'board': g.rect(w * 0.25, h * 0.55, 6, h * 0.45, [60, 60, 66]); g.rect(w * 0.75 - 6, h * 0.55, 6, h * 0.45, [60, 60, 66]); g.rect(4, 4, w - 8, h * 0.55, [40, 40, 44]); g.rect(8, 8, w - 16, h * 0.55 - 8, [[230, 120, 60], [60, 140, 200], [220, 200, 70]][r % 3]); break;
+    case 'car': case 'oncoming': { const c = [[220, 190, 40], [210, 210, 215], [60, 70, 90], [150, 40, 40]][r % 4]; g.rect(w * 0.15, h * 0.45, w * 0.7, h * 0.4, c); g.rect(w * 0.25, h * 0.2, w * 0.5, h * 0.3, shade(c, 0.85)); g.rect(w * 0.3, h * 0.25, w * 0.4, h * 0.2, [70, 100, 130]); g.rect(w * 0.18, h * 0.8, w * 0.14, h * 0.17, [30, 30, 32]); g.rect(w * 0.68, h * 0.8, w * 0.14, h * 0.17, [30, 30, 32]); break; }
+    case 'cockpit': g.rect(0, h * 0.62, w * 0.34, 10, [40, 40, 44]); g.rect(w * 0.66, h * 0.62, w * 0.34, 10, [40, 40, 44]); g.oval(w / 2, h * 0.8, 22, 22, [40, 40, 44]); g.oval(w / 2, h * 0.8, 16, 16, [230, 230, 220]); break;
+    case 'madmax': g.oval(w / 2, h / 2, w * 0.3, h * 0.4, [[90, 110, 70], [120, 120, 130], [240, 150, 40], [90, 90, 96]][r % 4]); break;
     default: g.rect(4, 4, w - 8, h - 8, wall);
   }
   return g;
 }
-const inPlan = new Set(plan.jobs.map(j => j.name)); for (const k of Object.keys(kit.pictures)) if (!inPlan.has(k)) delete kit.pictures[k];   // a picture from an earlier plan is not part of this kit
+const inPlan = new Set(plan.jobs.map(j => j.name)); for (const k of Object.keys(kit.pictures)) if (!inPlan.has(k) && !kit.pictures[k].manual) delete kit.pictures[k];   // a picture from an earlier plan is not part of this kit
 let n = 0;
 for (const j of plan.jobs) {
   if (kit.pictures[j.name] && !kit.pictures[j.name].placeholder && !A.force) continue;   // never replace real art

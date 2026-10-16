@@ -1,0 +1,29 @@
+# A local Overpass API with the OpenStreetMap data of Ukraine, for baking without the public servers' queues and limits.
+#   docker compose up -d          # the first start downloads the Geofabrik extract (about 0.9 GB) and builds the
+#                                 # database in ./overpass-db (git-ignored): plan an hour or two and about 10 GB of disk
+#   docker compose logs -f        # wait until it says it is ready, then bake against it:
+#   node scripts/bake.mjs --trip trips/my-trip --overpass http://127.0.0.1:12345/api/interpreter
+# Another country: change both Geofabrik URLs (https://download.geofabrik.de lists the extracts) and empty ./overpass-db.
+# It applies Geofabrik's daily diffs while it runs.
+services:
+  overpass:
+    image: wiktorn/overpass-api:v0.7.62.11
+    container_name: overpass-pixel-ukraine
+    ports:
+      - "127.0.0.1:12345:80"
+    volumes:
+      - ./overpass-db:/db
+    environment:
+      OVERPASS_MODE: init
+      OVERPASS_META: "no"
+      OVERPASS_USE_AREAS: "false"
+      OVERPASS_RULES_LOAD: "10"
+      OVERPASS_PLANET_URL: https://download.geofabrik.de/europe/ukraine-latest.osm.pbf
+      OVERPASS_DIFF_URL: https://download.geofabrik.de/europe/ukraine-updates/
+      # the image's importer wants a .bz2 name: convert the .pbf extract with osmium (in the image) first
+      OVERPASS_PLANET_PREPROCESS: "mv /db/planet.osm.bz2 /db/planet.osm.pbf && osmium cat -o /db/planet.osm.bz2 /db/planet.osm.pbf && unlink /db/planet.osm.pbf"
+      OVERPASS_MAX_TIMEOUT: "600"
+      OVERPASS_STOP_AFTER_INIT: "false"
+      OVERPASS_UPDATE_SLEEP: "86400"
+      OVERPASS_SPACE: "4000000000"
+    restart: unless-stopped

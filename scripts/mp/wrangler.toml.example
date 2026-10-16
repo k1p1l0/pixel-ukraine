@@ -1,0 +1,39 @@
+# Host a trip with multiplayer on Cloudflare Workers (the free plan is enough).
+# Copy this folder's worker.mjs, core.mjs, votes.mjs, votes-core.mjs, votes-extra.mjs and this file (as wrangler.toml) next to a
+# ./site folder that holds the built trip (index.html, road.js, layout.js, fonts/, sfx/, data/, art/; vote.html for the city vote).
+# Then: npx --yes wrangler@4.77.0 deploy
+# deploy/wrangler.toml.example at the repo root does the same without copying anything.
+name = ""                       # required: your Worker's name; the game is then at https://<name>.<your-subdomain>.workers.dev
+main = "worker.mjs"
+compatibility_date = "2025-06-01"
+# account_id = ""               # only when your Cloudflare login has more than one account (npx wrangler whoami lists them)
+
+[assets]
+directory = "./site"
+binding = "ASSETS"
+
+[[durable_objects.bindings]]
+name = "ROOM"
+class_name = "Room"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Room"]
+# The open world's section rooms ('ukraine-s3', copies 'ukraine-s3-2'), their hub ('ukraine-hub') and the private rooms are all this one Room class:
+# no other binding or migration. GET /_sections shows the hub's table; GET /_room?room=NAME&stats=1 a room's channels to the others.
+
+# Optional: the city vote by donation to a Monobank jar (votes.mjs, page vote.html in ./site). Leave it commented out and the game
+# runs without it. To turn it on, uncomment the block below and set two secrets (secrets never go in this file):
+#   npx wrangler secret put MONO_TOKEN    # the jar owner's read-only Monobank personal token (api.monobank.ua)
+#   npx wrangler secret put VOTE_ASSIGN   # optional: receipts whose comment got lost, assigned to a city by hand:
+#                                         # 'YYYY-MM-DDTHH:MM[|YYYY-MM-DDTHH:MM]/<kopecks>/<slug>;...' (minutes in UTC; votes.mjs parseAssign)
+# [[durable_objects.bindings]]
+# name = "VOTES"
+# class_name = "Votes"
+# [[migrations]]
+# tag = "v2"
+# new_sqlite_classes = ["Votes"]
+# [vars]
+# MONO_JAR = ""          # the id at the end of your jar link: https://send.monobank.ua/jar/<this> (empty: the vote stays closed)
+# VOTE_START = ""        # unix seconds; top-ups before it do not count
+# ADD_CITY_UAH = "5000"  # hryvnias a city off the route needs to be added (default 5000; «Місто: Полтава», list at /api/votes/cities)

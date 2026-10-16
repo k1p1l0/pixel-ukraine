@@ -30,11 +30,11 @@ const YELLOW = new Set(['us', 'ca', 'mx']);
 async function geocode(q) {
   const m = q.match(/^\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*$/);
   if (m) {   // coordinates: ask Nominatim (reverse) for the town and country, so signs and defaults are right
-    const r = await politeFetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=14&lat=${m[1]}&lon=${m[2]}`, { cacheDir: cache, gapMs: 1100, accept: s => s.startsWith('{') }).catch(() => '{}');
+    const r = await politeFetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&accept-language=uk&zoom=14&lat=${m[1]}&lon=${m[2]}`, { cacheDir: cache, gapMs: 1100, accept: s => s.startsWith('{') }).catch(() => '{}');
     const a = JSON.parse(r).address || {}, town = a.city || a.town || a.village || a.suburb || a.county;
     return { name: town ? `${town}${a.country ? ', ' + a.country : ''}` : `${(+m[1]).toFixed(4)} ${(+m[2]).toFixed(4)}`, lat: +m[1], lon: +m[2], cc: a.country_code || null };
   }
-  const url = 'https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=1&q=' + encodeURIComponent(q);
+  const url = 'https://nominatim.openstreetmap.org/search?format=jsonv2&accept-language=uk&addressdetails=1&limit=1&q=' + encodeURIComponent(q);
   const hit = JSON.parse(await politeFetch(url, { cacheDir: cache, gapMs: 1100, accept: s => s.startsWith('[') }))[0];
   if (!hit) throw Error(`Nominatim found nothing for "${q}". Try a more specific name ("Bath, England") or "lat,lon".`);
   return { name: q, label: hit.display_name, lat: +hit.lat, lon: +hit.lon, cc: hit.address?.country_code || null };

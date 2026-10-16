@@ -1,0 +1,8 @@
+# Files Wrangler leaves out when deploy/wrangler.toml uploads this folder: the art's sources and plans, not used by the page
+.assetsignore
+site.json
+art/plan.json
+art/free-prompts.json
+art/SOURCES.json
+art/cards/prompts.json
+*.md

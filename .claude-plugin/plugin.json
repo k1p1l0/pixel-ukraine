@@ -1,11 +1,11 @@
 {
-  "name": "pixel-path",
-  "displayName": "Pixel Path",
+  "name": "pixel-ukraine",
+  "displayName": "Pixel Ukraine (Піксельна Україна)",
   "version": "1.0.0",
-  "description": "Turn any two places into a pixel-art fly-through of the real road: OpenStreetMap buildings, land and landmarks, real hills and horizon, scenery art from RetroDiffusion at three levels of detail (quoted first; free placeholders too), and a self-check that screenshots the result.",
-  "author": { "name": "jonwheatley", "url": "https://github.com/jonwheatley" },
-  "homepage": "https://github.com/jonwheatley/pixel-path",
-  "repository": "https://github.com/jonwheatley/pixel-path",
+  "description": "A fork of Pixel Path that rides a 5,846 km loop around Ukraine in pixel art, with multiplayer rooms. The skill still turns any two places into a pixel-art fly-through of the real road: OpenStreetMap buildings, land and landmarks, real hills and horizon, scenery art at three levels of detail, and a self-check that screenshots the result.",
+  "author": { "name": "Kyrylo Kozak", "url": "https://github.com/k1p1l0" },
+  "homepage": "https://github.com/k1p1l0/pixel-ukraine",
+  "repository": "https://github.com/k1p1l0/pixel-ukraine",
   "license": "MIT",
-  "keywords": ["pixel-art", "openstreetmap", "fly-through", "retrodiffusion", "pseudo-3d", "maps"]
+  "keywords": ["pixel-art", "openstreetmap", "fly-through", "ukraine", "multiplayer", "pseudo-3d", "maps"]
 }

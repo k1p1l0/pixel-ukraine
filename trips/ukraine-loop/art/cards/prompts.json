@@ -1,0 +1,82 @@
+{
+ "kyiv": {
+  "stop": "Київ, Україна",
+  "subject": "Saint Sophia Cathedral in Kyiv, Ukraine: a white baroque cathedral with many green pear-shaped domes topped with golden crosses, the tallest golden-green dome in the centre"
+ },
+ "chernihiv": {
+  "stop": "Чернігів, Україна",
+  "subject": "the Transfiguration Cathedral in Chernihiv, Ukraine: an ancient white stone 11th-century church with one dark grey central dome and two tall round towers with pointed spires on each side of its front"
+ },
+ "sumy": {
+  "stop": "Суми, Україна",
+  "subject": "the Transfiguration Cathedral in Sumy, Ukraine: a cream and white neoclassical cathedral with a tall slender bell tower topped by a golden spire and dome next to a church with a golden dome"
+ },
+ "kharkiv": {
+  "stop": "Харків, Україна",
+  "subject": "the Derzhprom building in Kharkiv, Ukraine, seen close up from the front so it fills the whole width of the picture: a grey concrete constructivist complex of three big rectangular flat-roofed blocks of stepped heights, the central one tallest at 12 storeys, joined by high enclosed sky-bridges, a grid of many square windows, a thin radio antenna mast on the central block, no spires, no glass skyscrapers"
+ },
+ "dnipro": {
+  "stop": "Дніпро, Дніпропетровська область, Україна",
+  "subject": "the white church with golden domes of Saint Nicholas on Monastyrskyi Island in Dnipro, Ukraine, standing among green trees on a small island in the wide blue Dnipro river"
+ },
+ "luhansk": {
+  "stop": "Луганськ, Україна",
+  "subject": "the Donbas steppe near Luhansk, Ukraine: golden steppe grass in front, two dark cone-shaped coal spoil heaps (terrikons) and a mine headframe tower on the horizon under a wide sky"
+ },
+ "donetsk": {
+  "stop": "Донецьк, Україна",
+  "subject": "the Donbass Arena football stadium in Donetsk, Ukraine: a modern oval stadium with a sloping silver-blue glass facade that rises higher at one end, lit from inside, at dusk"
+ },
+ "mariupol": {
+  "stop": "Маріуполь, Україна",
+  "subject": "the Drama Theatre in Mariupol, Ukraine: a cream-coloured neoclassical theatre building with a grand portico of eight tall white columns and a triangular pediment, on a wide square with a fountain"
+ },
+ "kerch": {
+  "stop": "Керч, Україна",
+  "subject": "a white lighthouse tower with a red top on a rocky shore of the Kerch strait, Ukraine, blue sea and sky around it"
+ },
+ "yalta": {
+  "stop": "Ялта, Україна",
+  "subject": "the Swallow's Nest castle near Yalta, Crimea: a small grey-white neo-gothic castle with a tall tower with turrets standing on the edge of a high sheer cliff above the blue Black Sea"
+ },
+ "sevastopol": {
+  "stop": "Севастополь, Україна",
+  "subject": "the Monument to the Scuttled Ships in Sevastopol, Crimea: a tall slender grey stone Corinthian column topped by a bronze eagle with spread wings, standing on a rocky granite base in the blue sea water"
+ },
+ "kherson": {
+  "stop": "Херсон, Україна",
+  "subject": "the Adzhyhol lighthouse near Kherson, Ukraine: a tall slender Shukhov hyperboloid steel lattice tower, a red-painted crisscross grid lattice narrowing in the middle like an hourglass, with a small white lantern room on top, standing on flat sandy shore with reeds by the blue Dnipro estuary"
+ },
+ "odesa": {
+  "stop": "Одеса, Україна",
+  "subject": "the Odesa Opera and Ballet Theatre, Ukraine: a wide cream-coloured baroque theatre whose front is a big curved semicircular facade with two tiers of arched windows and paired columns, a low wide grey-green dome over the auditorium behind it, a sculpture group of a woman in a chariot pulled by panthers above the front entrance, green chestnut trees on both sides, no palm trees, not a church, no cross"
+ },
+ "izmail": {
+  "stop": "Ізмаїл, Україна",
+  "subject": "the Danube river port of Izmail, Ukraine: a white Orthodox church with blue domes on the riverbank, a small river ship and harbour cranes on the wide blue Danube"
+ },
+ "vinnytsia": {
+  "stop": "Вінниця, Україна",
+  "subject": "the Roshen floating fountain in Vinnytsia, Ukraine at night: tall fountain jets of water lit in pink, blue and violet light rising from a dark river, city lights reflected in the water"
+ },
+ "kamianets-podilskyi": {
+  "stop": "Кам'янець-Подільський, Україна",
+  "subject": "the old fortress of Kamianets-Podilskyi, Ukraine: a medieval stone castle with several round towers with red-brown conical roofs and stone walls on a rocky hill above a green river canyon, with a stone bridge"
+ },
+ "chernivtsi": {
+  "stop": "Чернівці, Україна",
+  "subject": "the Residence of Bukovinian Metropolitans in Chernivtsi, Ukraine: a red-brick university palace in Byzantine-Moorish style with patterned colourful roof tiles in green and yellow, arched windows and small towers"
+ },
+ "uzhhorod": {
+  "stop": "Ужгород, Україна",
+  "subject": "Uzhhorod Castle, Ukraine: a sturdy white stone castle palace with a red tiled roof inside thick grey fortress walls with corner bastions, on a green hill"
+ },
+ "lviv": {
+  "stop": "Львів, Україна",
+  "subject": "the Lviv Opera House, Ukraine: a tall cream neo-renaissance theatre facade with a central section of tall columns and arches, crowned on top by three bronze statues, the central winged woman holding up a golden palm branch, a green copper dome roof behind, seen from the front across a square"
+ },
+ "lutsk": {
+  "stop": "Луцьк, Україна",
+  "subject": "Lubart's Castle in Lutsk, Ukraine: a medieval red-brick castle with a tall square brick entrance gate tower and brick walls with battlements, with a green grassy hill in front"
+ }
+}

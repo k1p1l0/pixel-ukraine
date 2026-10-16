@@ -1,0 +1,47 @@
+# local tool state
+.wrangler/
+.cache/
+node_modules/
+__pycache__/
+*.pyc
+tmp/
+check/
+
+# secrets
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+
+# logs, art ledgers and quotes
+*.log
+ledger*.json
+free-ledger*.json
+quote.json
+*.lock
+
+# local Overpass database (docker-compose.yml)
+overpass-db*/
+
+# throwaway test scripts and old bakes
+probe-*.mjs
+data/pre-*
+
+# the art's originals and contact sheets: only the cleaned pictures go in git
+trips/*/art/raw/
+trips/*/art/raw-free/
+trips/*/art/cards/raw/
+trips/*/art/contact.png
+trips/*/art/cards/contact-sheet.png
+
+# built by scripts/viewer.mjs from templates/ (run it before you play)
+trips/*/index.html
+trips/*/road.js
+trips/*/layout.js
+trips/*/sfx/
+trips/*/fonts/
+trips/*/vote.html
+
+# your own deploy config (copied from deploy/wrangler.toml.example)
+deploy/wrangler.toml
+.DS_Store

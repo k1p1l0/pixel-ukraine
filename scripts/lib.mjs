@@ -81,7 +81,7 @@ export function encodeLine(points, q = 1e5) {
 
 // ------------------------------------------------------------------ polite HTTP
 // Every public service we use asks for an identifying User-Agent and for modest request rates.
-export const USER_AGENT = process.env.PIXEL_PATH_USER_AGENT || 'pixel-path-skill/1.0 (personal project; https://github.com/jonwheatley/pixel-path)';
+export const USER_AGENT = process.env.PIXEL_PATH_USER_AGENT || 'pixel-ukraine/1.0 (+https://github.com/k1p1l0/pixel-ukraine; a fork of github.com/jonwheatley/pixel-path)';
 const lastHit = new Map();
 async function gap(host, ms) { const t = lastHit.get(host) || 0, wait = t + ms - Date.now(); if (wait > 0) await sleep(wait); lastHit.set(host, Date.now()); }
 

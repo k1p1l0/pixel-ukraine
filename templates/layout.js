@@ -83,21 +83,29 @@ export function buildChunk(d, env) {
   for (let k = 0; k < n; k++) {
     const t = k * SEG / step, a = Math.min(smp.length - 1, Math.floor(t)), b = Math.min(smp.length - 1, a + 1), f = t - a, A = smp[a], B = smp[b];
     let ha = A[0] / 1000, dh = wrapA(B[0] / 1000 - ha); const X = f < 0.5 ? A : B, cls = CLASSW[X[2]] ? X[2] : 'mi', P0 = d.xy[a], P1 = d.xy[b];
-    segs[k] = { s: d.s0 + k * SEG, x: P0[0] + (P1[0] - P0[0]) * f, y: P0[1] + (P1[1] - P0[1]) * f, hd0: ha + dh * f, h: (A[1] + (B[1] - A[1]) * f) / 10, cls, L: X[3], R: X[4], bridge: !!X[5], road: nm(X[6]), bill: [], ch: d, c: d.c };
+    const G = d.green && d.green[f < 0.5 ? a : b];   // WorldCover tree belts (green.mjs): [distance, depth] a side, null where the chunk has none
+    segs[k] = { s: d.s0 + k * SEG, x: P0[0] + (P1[0] - P0[0]) * f, y: P0[1] + (P1[1] - P0[1]) * f, hd0: ha + dh * f, h: (A[1] + (B[1] - A[1]) * f) / 10, cls, L: X[3], R: X[4], bridge: !!X[5], road: nm(X[6]), lanes: X[7] || 0, oneway: !!X[8], gL: G ? [G[0], G[1]] : null, gR: G ? [G[2], G[3]] : null, bill: [], ch: d, c: d.c };
   }
   // road class flips every few metres where a road is mapped twice (a sidewalk as a footway beside a street): short
   // runs take the class of what surrounds them, so the street doesn't come and go
   for (const maxLen of [30, 60]) { let k = 0; while (k < n) { let j = k; while (j + 1 < n && segs[j + 1].cls === segs[k].cls) j++; const before = segs[k - 1], after = segs[j + 1];
-    if ((j - k + 1) * SEG < maxLen && before && after && before.cls === after.cls) for (let m = k; m <= j; m++) Object.assign(segs[m], { cls: before.cls, road: before.road }); k = j + 1; } }
+    if ((j - k + 1) * SEG < maxLen && before && after && before.cls === after.cls) for (let m = k; m <= j; m++) Object.assign(segs[m], { cls: before.cls, road: before.road, lanes: before.lanes, oneway: before.oneway }); k = j + 1; } }
   // heading smoothed over ±60 m; slopes at most 12%; heights eased over ±30 m
   for (let k = 0; k < n; k++) { let sx = 0, sy = 0; for (let j = -30; j <= 30; j++) { const v = segs[clamp(k + j, 0, n - 1)].hd0; sx += Math.cos(v); sy += Math.sin(v); } segs[k].hd = Math.atan2(sy, sx); }
   for (let k = 1; k < n; k++) segs[k].h = Math.min(segs[k].h, segs[k - 1].h + 0.24); for (let k = n - 2; k >= 0; k--) segs[k].h = Math.min(segs[k].h, segs[k + 1].h + 0.24);
   for (let k = 0; k < n; k++) { let sum = 0; for (let j = -15; j <= 15; j++) sum += segs[clamp(k + j, 0, n - 1)].h; segs[k].hs = sum / 31; }
   // built-up: buildings within 40 m on either side, or paved/lawn land. Towns get sidewalks; open road a verge.
   const frontAt = new Uint8Array(n); for (const [s, len] of d.fronts) for (let k = Math.max(0, Math.floor((s - 40) / SEG)); k <= Math.min(n - 1, Math.ceil((s + len + 40) / SEG)); k++) frontAt[k] = 1;
-  for (let k = 0; k < n; k++) { const q = segs[k], town = frontAt[k] || q.L === 'pave' || q.R === 'pave'; q.town = town; q.rw0 = CLASSW[q.cls][0]; q.sw0 = town ? Math.max(CLASSW[q.cls][1], q.cls === 'sv' ? 1.2 : 2) : Math.min(1.6, CLASSW[q.cls][1]); }
+  // the road's half width: OSM lanes at 3.5 m each (a six-lane avenue is 21 m, a two-lane street 7 m), else the class default
+  for (let k = 0; k < n; k++) { const q = segs[k], town = frontAt[k] || q.L === 'pave' || q.R === 'pave'; q.town = town; q.rw0 = q.lanes >= 2 || (q.lanes === 1 && q.oneway) ? q.lanes * 1.75 : CLASSW[q.cls][0]; q.sw0 = town ? Math.max(CLASSW[q.cls][1], q.cls === 'sv' ? 1.2 : 2) : Math.min(1.6, CLASSW[q.cls][1]); }
   for (let k = 0; k < n; k++) { let a = 0, b = 0, t = 0; for (let j = -8; j <= 8; j++) { const q = segs[clamp(k + j, 0, n - 1)]; a += q.rw0; b += q.sw0; t += q.town ? 1 : 0; } segs[k].rw = a / 17; segs[k].sw = b / 17; segs[k].walk = t > 8; }
   if (idx.dry) for (const q of segs) for (const sd of ['L', 'R']) if (q[sd] === 'farm' || q[sd] === 'grass') q[sd] = 'desert';
+  // sunflower fields (Ukraine branch): in the steppe regions a share of the farmland beside the road is sunflowers in
+  // bloom. A field runs 360 m along the road and 60 to 200 m deep (q.sL / q.sR, metres from the road centre), decided
+  // per side and per field, so it never flickers. The ground paints its far part (road.js); its near rows stand as
+  // pictures (step 4).
+  for (const q of segs) { q.sL = q.sR = q.uL = q.uR = q.nL = q.nR = 0; const share = SUNFLOWERS[kit.themeAt(q.s).id]; if (!share || d.sea || q.town) continue;   /* in a town: lawns and yards, not a field */ const f = Math.floor(q.s / 360);
+    for (const sg of [-1, 1]) if ((sg > 0 ? q.R : q.L) === 'farm' && hrnd(f, 211 + sg * 17) < share) q[sg > 0 ? 'sR' : 'sL'] = [60, 120, 120, 200][hash(f, 223 + sg) & 3]; }
 
   // crossings (a crosswalk and a gap in the street wall) and railway crossings
   const cross = (d.cross || []).map(([s, w, ni]) => ({ at: d.s0 + s, w, name: nm(ni) })).filter(c => c.name !== segAt(segs, d, c.at)?.road);
@@ -142,12 +150,14 @@ export function buildChunk(d, env) {
 
   // 3. fill where the map has no building near the road, by what the land is
   { const hasFront = (s0, sg, r) => planes.some(p => Math.sign(p.side) === sg && p.at < s0 + r && p.at + p.len > s0 - r);
+    const mapped = (s0, sg, r) => planes.some(p => !p.fill && Math.sign(p.side) === sg && p.at < s0 + r && p.at + p.len > s0 - r) || (d.backs || []).some(b => Math.sign(b[2]) === sg && d.s0 + b[0] < s0 + r && d.s0 + b[0] + b[1] > s0 - r);   // a real building from the bake (front or row behind) near here
     const wall = (q, sg, c, len, setback, hgt) => { if (!c) return; const w = clamp(natural(c.pic, hgt), 6, Math.max(6, len * 1.6)); planes.push({ at: q.s - w / 2, len: w, side: sg * setback, hgt, ...c, fill: true }); };
     for (let k = 6; k < n - 6; k += 11) { const q = segs[k]; if (q.cross || q.bridge || q.s < 30 || q.s > TOTAL - 30) continue;
       for (const sg of [-1, 1]) { const land = sg > 0 ? q.R : q.L, r = hrnd(q.s, sg * 31), edge = q.rw + q.sw + 0.4;
         if (land === 'water' || land === 'grass' || land === 'forest' || land === 'marsh' || land === 'sand' || land === 'lot' || hasFront(q.s, sg, 14)) continue;
+        if (!mapped(q.s, sg, 150)) continue;   // the map has no building within 150 m on this side: open land stays open (bushes, a verge), whatever the land use says
         if (q.dense && land === 'pave') { const h = 12 + r * 14, c = choose('commercial', h, q.s, sg, 41, true); wall(q, sg, c, 20, edge + 0.5, heightFor(c?.pic, 0, q.s) * (h > 18 ? 1.3 : 1)); }
-        else if (land === 'lawn' && r < 0.8) { const c = choose('house', 0, q.s, sg, 43, false); wall(q, sg, c, 12 + r * 4, edge + 6 + r * 8, heightFor(c?.pic, 0, q.s)); }
+        else if (land === 'lawn' && r < 0.8 && !/park|wood|forest/.test(kit.themeAt(q.s).id)) { const c = choose('house', 0, q.s, sg, 43, false);   /* a park region keeps its lawns for trees */ wall(q, sg, c, 12 + r * 4, edge + 6 + r * 8, heightFor(c?.pic, 0, q.s)); }
         else if (land === 'farm' && k % 55 === 6 && r < 0.45) { const c = choose('farm', 0, q.s, sg, 47, false); wall(q, sg, c, 22, edge + 25 + r * 40, heightFor(c?.pic, 0, q.s)); }
         else if (land === 'pave' && r < 0.5) { const c = choose('commercial', 0, q.s, sg, 49, false); wall(q, sg, c, 16, edge + 3 + r * 5, heightFor(c?.pic, 0, q.s)); } } }
     finishPlanes(planes, cross, segs, d, (type, h, s, sg) => choose(type, h, s, sg, 53, true), heightFor, natural);
@@ -183,14 +193,29 @@ export function buildChunk(d, env) {
     if (!q.town && k % 20 === 0 && q.cls !== 'mw' && q[DRIVE > 0 ? 'R' : 'L'] !== 'water') q.bill.push(pic(F, 'pole', s, 1, -DRIVE * 0) || { code: 'pole', side: DRIVE * (curb + q.sw + 1.2) });
     if (q.town && k % 12 === 5 && r < 0.55) { const s2 = sg, land = s2 > 0 ? q.R : q.L; if (land !== 'water' && !wallAt(s2 * (curb + 0.6))) { const t = treePick(kit, s, s2); if (t) q.bill.push({ pic: t, side: s2 * (q.rw + q.sw - 0.6), scale: 0.65 + hrnd(s, 7) * 0.25 }); } }   // street trees are smaller than country ones
     if (q.town && r > 0.985) { const p2 = kit.pool(['street'], s), ex = pickFrom(p2, hash(s, 5)); if (ex) q.bill.push({ pic: ex, side: sg * (curb + 0.5) }); }
-    for (const s2 of [-1, 1]) { const g = s2 > 0 ? q.R : q.L, off = q.rw + q.sw + 2.5;
+    if (/park|wood|forest/.test(kit.themeAt(s).id)) { if (q.L === 'farm' || q.L === 'grass') q.L = 'lawn'; if (q.R === 'farm' || q.R === 'grass') q.R = 'lawn'; }   /* a park region: open land is parkland, not fields */
+    for (const s2 of [-1, 1]) { const g = s2 > 0 ? q.R : q.L, off = q.rw + q.sw + 2.5, gb = s2 > 0 ? q.gR : q.gL, sun = s2 > 0 ? q.sR : q.sL;
+      if (sun && g === 'farm' && !q.town) {   // a sunflower field: rows of plants from the verge out, up to a tree belt if one lines the field
+        const belt = gb && gb[1] > 0, near = q.rw + q.sw + 0.6, lim = Math.min(sun, 34, belt ? gb[0] - 1.5 : 1e9);
+        if (lim > near + 3) { plantSunflowers(q, k, s2, near, lim); q[s2 > 0 ? 'uR' : 'uL'] = lim; } else q[s2 > 0 ? 'nR' : 'nL'] = gb[0] + Math.min(gb[1], 45);   // u: the rows of plants reach this far; n: a belt at the roadside, the field starts behind it
+        if (!belt) continue; }   // no fence and no stray trees in a field in bloom
+      if (gb && !q.town && g !== 'water' && g !== 'pave') {   // satellite land cover knows the tree belts OSM misses (field windbreaks, roadside belts, woods)
+        const [bd, bw] = gb;
+        if (bw > 0) { const near = Math.max(off + 1.5, bd), deep = Math.min(bw, 45), rows = bw >= 60 ? 3 : bw >= 25 ? 2 : 1, lawn = g === 'lawn';
+          for (let r = 0; r < rows; r++) if (hrnd(s, s2 * 23 + r * 7) < (lawn ? 0.18 : 0.42) / (1 + r * 0.25)) { const t = treePick(kit, s + s2 * (r + 1), s2 * (r + 1)); if (t) q.bill.push({ pic: t, side: s2 * (near + (r + hrnd(s, s2 * 29 + r)) * deep / rows), scale: 0.8 + hrnd(s, 31 + r) * 0.55 }); }
+          if (hrnd(s, s2 * 37) < (lawn ? 0.08 : 0.14)) { const b = pickFrom(kit.pool(['bush'], s), hash(s, s2 * 41)); if (b) q.bill.push({ pic: b, side: s2 * Math.max(off + 0.5, near - 1 - hrnd(s, 43) * 2), scale: 0.8 + hrnd(s, 47) * 0.4 }); }   // bushes along the belt's near edge
+          continue; }   // no fence where a belt lines the road
+        if (g === 'forest') { if (hrnd(s, s2 * 3 + 1) < 0.05) { const t = treePick(kit, s + s2, s2); if (t) q.bill.push({ pic: t, side: s2 * (off + hrnd(s, s2 * 3) * 30), scale: 0.7 + hrnd(s, 8) * 0.6 }); } continue; }   // the map says wood, the satellite sees open land: a tree now and then
+      }
       if (g === 'forest' && k % 3 === 0) { const t = treePick(kit, s + s2, s2); if (t) q.bill.push({ pic: t, side: s2 * (off + hrnd(s, s2 * 5) * 22), scale: 0.75 + hrnd(s, 9) * 0.6 }); }
       else if ((g === 'farm' || g === 'grass') && hrnd(s, s2 * 3 + 1) < (g === 'grass' ? 0.06 : 0.025)) { const t = treePick(kit, s + s2, s2); if (t) q.bill.push({ pic: t, side: s2 * (off + hrnd(s, s2 * 3) * 30), scale: 0.7 + hrnd(s, 8) * 0.6 }); }
       else if ((g === 'farm' || g === 'grass') && !q.town && k % 3 === 0) q.bill.push({ code: 'fence', side: s2 * (off - 0.6) });
-      else if (g === 'lawn' && hrnd(s, s2 * 13) < 0.04) { const t = kit.pool(['bush', 'tree'], s), b = pickFrom(t, hash(s, s2 * 17)); if (b) q.bill.push({ pic: b, side: s2 * (off + 1 + hrnd(s, 12) * 4), scale: 0.8 + hrnd(s, 3) * 0.4 }); }
+      else if (g === 'lawn' && hrnd(s, s2 * 13) < (/park|wood|forest/.test(kit.themeAt(s).id) ? 0.5 : 0.04)) { const park = /park|wood|forest/.test(kit.themeAt(s).id), t = kit.pool(park ? ['tree', 'bush'] : ['bush', 'tree'], s), b = pickFrom(t, hash(s, s2 * 17));   /* a park region: a wood on the lawns */ if (b) q.bill.push({ pic: b, side: s2 * (off + 1 + hrnd(s, 12) * 4), scale: 0.8 + hrnd(s, 3) * 0.4 }); }
       else if (g === 'desert' && k % 4 === 0 && hrnd(s, s2 * 11) < 0.5) { const t = kit.pool(['bush', 'tree'], s), b = pickFrom(t, hash(s, s2 * 19)); if (b) q.bill.push({ pic: b, side: s2 * (off + hrnd(s, s2 * 11) * 40), scale: 0.6 + hrnd(s, 10) * 0.7 }); } }
   }
   for (const c of cross) for (const sg of [-1, 1]) { const k = Math.round((c.at - c.w / 2 - 1 - d.s0) / SEG); if (segs[k] && segs[k].town) segs[k].bill.push({ code: 'signal', side: sg * (segs[k].rw + 0.4) }); }
+  // advertising billboards where OpenStreetMap maps them (Ukraine branch), on the verge, facing the road
+  for (const [bs, side] of d.boards || []) { const k = clamp(Math.round(bs / SEG), 0, n - 1), q = segs[k], sg = Math.sign(side) || 1, pic = pickFrom(kit.pool(['board'], d.s0 + bs), hash(bs, 77)); if (pic) q.bill.push({ pic, side: sg * Math.max(q.rw + q.sw + 2, Math.min(Math.abs(side), 40)), far: true, board: true }); }
   // landmarks with a picture stand at their real place; close to the road a building landmark replaces the frontage
   for (const lm of env.landmarks || []) { if (!lm.art || lm.s < d.s0 || lm.s >= d.s0 + d.len) continue; const info = kit.info(lm.art); if (!info) continue;
     const k = clamp(Math.round((lm.s - d.s0) / SEG), 0, n - 1), q = segs[k], sg = Math.sign(lm.side) || 1, hm = lm.h, wm = Math.max(4, hm * info.w / info.h);
@@ -204,6 +229,23 @@ export function buildChunk(d, env) {
   return { c: d.c, d, segs, planes, cross, places: (d.places || []).map(([s, name, rank]) => ({ at: d.s0 + s, name, rank })) };
 }
 function treePick(kit, s, sg) { return pickFrom(kit.pool(['tree'], s), hash(Math.round(s), 61 + sg)); }
+
+// Sunflowers (Ukraine branch). The share of the farmland beside the road that is a sunflower field, by region: the
+// southern and eastern steppe most, the forest steppe less, none in the forest north, Crimea's hills or the mountains.
+export const SUNFLOWERS = { 'tavria-steppe': 0.6, 'dnipro-steppe': 0.55, azov: 0.45, donbas: 0.4, bessarabia: 0.4, odesa: 0.3, slobozhanshchyna: 0.3, podillia: 0.3 };
+// The plants are pictures road.js draws by code at start-up (pixel art, no generation): ~sun1-4 a patch of about six
+// plants, ~sun5-6 one tall plant. Rows stand every 2 m out from the verge, close together near the road and further
+// apart out in the field, each patch with a draw distance (zmax): the far rows and the far field are the ground's
+// painted heads (road.js), so a field costs a few hundred small pictures a frame, not thousands.
+export const SUN_PICS = ['~sun1', '~sun2', '~sun3', '~sun4'], SUN_ONE = ['~sun5', '~sun6'];
+function plantSunflowers(q, k, sg, near, lim) {
+  const s = q.s;
+  for (let r = 0, lat = near + 0.4; lat < lim && r < 16; r++, lat += r < 6 ? 1.9 : 2.3) {
+    const every = r < 2 ? 1 : r < 7 ? 2 : 3; if ((k + r) % every) continue;
+    const z0 = r < 2 ? 130 : r < 5 ? 90 : r < 9 ? 60 : 40, zmax = z0 > 55 && hrnd(s, sg * 137 + r) < 0.5 ? 55 : z0, j = (hrnd(s, sg * 101 + r) - 0.5) * 0.8;   // past 55 m every other patch gives way to the painted field
+    if (r === 0 && hrnd(s, sg * 103) < 0.3) { q.bill.push({ pic: SUN_ONE[hash(Math.round(s), sg * 107) & 1], side: sg * (near + 0.1 + hrnd(s, 109) * 0.3), scale: 0.95 + hrnd(s, sg * 113) * 0.25, zmax }); continue; }   // a single plant at the very edge now and then: the field's edge is ragged
+    q.bill.push({ pic: SUN_PICS[hash(Math.round(s) + r * 7, sg * 127) & 3], side: sg * (lat + j), scale: 0.86 + hrnd(s, sg * 131 + r) * 0.26, zmax }); }
+}
 function pic(F, slot, s, sg) { return null; }   // lamps and poles are drawn by code (crisp and free); a kit picture could be wired in here
 function segAt(segs, d, s) { return segs[clamp(Math.round((s - d.s0) / SEG), 0, segs.length - 1)]; }
 
@@ -264,7 +306,8 @@ function placeSigns(d, segs, env) {
     if (!ahead.some(p => p[1] === idx.to.split(',')[0])) lines.push([idx.to.split(',')[0], dist(idx.total - at, units)]);
     if (lines.length) put(at, { type: 'distance', lines: lines.slice(0, 3), country: idx.country, motorway: segs[Math.round((at - s0) / SEG)]?.cls === 'mw' }, DRIVE, 4); }
   // landmarks: a brown sign 150 m before each one, pointing to its side
-  for (const lm of env.landmarks || []) { if (lm.signed === false) continue; const a = lm.s - 150; if (a >= s0 && a < s1 && a > 100) put(a, { type: 'brown', text: lm.name, dir: lm.side < 0 ? -1 : 1 }, DRIVE, 2.6); }
+  // (Ukraine branch, 2026-10-14: no brown signs. They stood in junctions with cut names, and the chat log and the minimap already announce every landmark.)
+  for (const lm of env.brownSigns ? env.landmarks : []) { if (lm.signed === false) continue; const a = lm.s - 150; if (a >= s0 && a < s1 && a > 100) put(a, { type: 'brown', text: lm.name, dir: lm.side < 0 ? -1 : 1 }, DRIVE, 2.6); }
   // railway crossings
   for (const r of d.rails || []) { const at = s0 + r; put(at - 8, { type: 'rail' }, DRIVE, 3.2); put(at + 8, { type: 'rail' }, -DRIVE, 3.2); }
   // street names at cross streets in town
